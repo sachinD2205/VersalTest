@@ -1,0 +1,72 @@
+.main {
+    /* padding: 5px; */
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+  }
+  .fpaper {
+    padding: 5px;
+    display: flex;
+  }
+  .spaper {
+    padding: 5px;
+  }
+  
+  .btn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    margin-top: 5vh;
+    justify-content: center;
+  }
+  .small {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 1vw;
+  }
+  .addbtn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2vh;
+    margin-right: 40px;
+    padding: 10px;
+  }
+  .row {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .second {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .paperCenter {
+    display: flex;
+    justify-content: center;
+  }
+  .tableButton {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .btn1 {
+    margin: 2vw;
+  }
+  .fieldss {
+    margin: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  .fieldssB {
+    display: flex;
+    /* background-color: blue; */
+    /* justify-content: right; */
+    margin-left: 12vh;
+    flex-wrap: wrap;
+  }
+  

@@ -1,0 +1,22 @@
+.container {
+  /* padding: 5px; */
+}
+
+.gridContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.innerCard:hover {
+    background-color:#2162DF;
+    color:white   
+}

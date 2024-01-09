@@ -1,0 +1,45 @@
+.goshwara tr td {
+  border: 1px solid black;
+  width: 50%;
+}
+.report {
+  border: 1px solid black;
+  width: 100%;
+}
+.trrow {
+  display: flex;
+  justify-content: flex-end;
+}
+.trroww {
+  display: flex;
+  /* justify-content: flex-end; */
+  margin-left: 400px;
+}
+.data {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.data tr th {
+  border: 1px solid black;
+}
+
+.dat1 .tdcard {
+  display: flex;
+  justify-content: center;
+}
+.tRcard {
+  display: flex;
+  justify-content: center;
+}
+.trrowf {
+  display: flex;
+  justify-content: flex-end;
+}
+@media print {
+  .trroww {
+    display: flex;
+    /* justify-content: flex-end; */
+    margin-left: 320px;
+  }
+}

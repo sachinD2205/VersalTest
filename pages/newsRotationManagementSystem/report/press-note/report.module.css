@@ -1,0 +1,42 @@
+.report_table > thead > tr > th {
+  border: 1px solid black;
+}
+
+.report_table > tbody > tr > td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+/* @page {
+  size: A2;
+} */
+.report_table {
+  width: 100%;
+}
+
+.report_table > thead {
+  width: 100%;
+}
+.report_table {
+  width: 100%;
+}
+.tfoot {
+  border: 1px solid black;
+}
+.report_table > tfoot > tr > td {
+  text-align: center;
+  border: 1px solid black;
+}
+.report_table > tbody > tr > td {
+  text-align: center;
+}
+
+.searchFilter {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+.centerDiv {
+  display: flex;
+  justify-content: center;
+}

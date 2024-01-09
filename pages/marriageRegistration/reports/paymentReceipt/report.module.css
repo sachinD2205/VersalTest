@@ -1,0 +1,57 @@
+.report_table > thead > tr > th {
+  border: 1px solid black;
+}
+
+.report_table > tbody > tr > td {
+  text-align: center;
+  border: 1px solid black;
+}
+.report_table > tbody > tr > th {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.report_table > thead > tr > td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.report_table > thead {
+  width: 100%;
+}
+.report_table {
+  width: 100%;
+}
+.tfoot {
+  border: 1px solid black;
+}
+.data1 {
+  font-size: 15px;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+.detailsTABLE {
+  background: linear-gradient(
+    90deg,
+    rgb(72 115 218 / 91%) 2%,
+    rgb(142 122 231) 100%
+  );
+
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 30px;
+  /* margin-left: 25px; */
+  height: 50px;
+  border-radius: 100px;
+}
+
+.h1TagTABLE {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25px;
+}

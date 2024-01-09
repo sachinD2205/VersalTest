@@ -1,0 +1,351 @@
+.MainDiv{
+}
+
+.table{
+    /* background-color: red; */
+    width: 100%;
+}
+.table1{
+    /* background-color: red; */
+    width: 80%;
+}
+.Paper{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 2vh 2vw;
+}
+.h1{
+    color: yellow;
+}
+.SearchHeader{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GridContainer1{
+    margin: 1vh 1vw;
+    /* align-items: center; */
+    border:2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Grid{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+      /* style={{ display: "flex", justifyContent: "center", alignItem: "center" }} */
+}
+.GridItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      /* style={{ display: "flex", justifyContent: "center", alignItem: "center" }} */
+}
+.GoshwaraName{
+    /* background-color: red; */
+    /* border: 2px soild black; */
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 5vh 0;
+    text-align: center;
+}
+.EscalationHeaderName{
+    /* background-color: red; */
+    /* border: 2px soild black; */
+    font-size: 15px;
+    font-weight: bold;
+    margin-left:2.5vw;
+    text-align: center;
+    margin:  5vh 0;
+}
+.GoshwaraPralabitHeaderName{
+    /* background-color: red; */
+    /* border: 2px soild black; */
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:2.5vw;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+.DayWiseDeatilsHeaderName{
+    /* background-color: red; */
+    /* border: 2px soild black; */
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:2.5vw;
+    text-align: center;
+}
+.hrPoitWise{
+  border-top:3px solid black ;
+  margin: 5vh 0;
+}
+.hrGoshwara{
+  border-top:3px solid black ;
+  margin: 5vh 0;
+}
+.DayWiseHeaderName{
+  border-top:3px solid black ;
+  margin: 5vh 0;
+}
+.DayWiseMoreDetailsHeaderName{
+  border-top:3px solid black ;
+  margin: 5vh 0;
+}
+.goshwaraFormDateToDate{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+ /* border: 2px solid black; */
+ /* margin: 0 0; */
+ /* margin-left:  2vw; */
+ /* margin-right:  10vw; */
+}
+/* Day_Wise_Selection_Report_In_Details */
+.MainDiv{
+padding-left: 3.5vw;
+}
+/* .PageBreakForPrint{
+  
+} */
+
+/* .PageBreakForPrint { page-break-before: always; } page-break-after works, as well */
+@media print {
+  .PageBreak {
+    /* page-break-before: always; */
+    /* background-color: orange; */
+  }
+  /* .PageBreak::after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+  } */
+}
+.Table{
+    width: 90%;
+    height: 100%;
+    padding: 2vh 3vw;
+    margin: 2vh 2vw;
+    display: inline-block;
+    /* border: 2px solid black; */
+}
+.DayWiseInDetailsDiv1{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.DayWiseInDetailsDiv2{
+    /* border: 2px solid rgb(0, 255, 34); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.TableDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     /* padding: 2vh 2vw; */
+}
+/* Table 2 */
+.Table2{
+    margin: 2vh 0 ;
+}
+.TrTable2Border{
+    /* display: inline-block; */
+    /* border: 1px solid black; */
+    /* background-color: blue; */
+}
+.TrTable2Padding{
+ /* background-color: blue; */
+}
+.ThTd1Table2Padding{
+    /* width :50%; */
+    padding: 1vh 0;
+    background-color: red;
+     /* column-span: 50; */
+}
+.ThTd2Table2Padding{
+    /* width :100%; */
+    padding: 1vh 2vw;
+    background-color: yellow;
+     /* column-span: 50; */
+}
+
+/* Table3  */
+.Table3{
+    width:100%;
+    margin: 3.5vh 0 ;
+    /* border: 1px solid rgb(0, 11, 212); */
+}
+.TrTable3Border{
+  /* border: 1px solid black; */
+}
+.TrTable3Padding{
+  padding: 1vh 0.5vw;
+  text-align: center;
+}
+.ThTdTable3Border{
+     border: 1px solid black;
+     /* column-span: 20; */
+}
+.ThTdTable3Padding{
+    padding: 1vh 0.5vw;
+    text-align: center;
+    width: 20%;
+}
+
+/* Category Wise */
+.hrCategoryWise{
+  border-top: 3px solid black ;
+  margin: 5vh 0;
+}
+.CategoryWiseHeaderName{
+    /* background-color: red; */
+    /* border: 2px soild black; */
+    font-size: 25px;
+    font-weight: bold;
+    margin-left:2.5vw;
+    text-align: center;
+    margin:  5vh 0;
+}
+.categoryWiseFormDateToDate{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+ /* border: 2px solid black; */
+ /* margin: 0 0; */
+ /* margin-left:  2vw; */
+ /* margin-right:  10vw; */
+}
+.HideComponent{
+    display: none;
+}
+.trForFun{
+    /* background-color: red; */
+    /* margin-top: 5vh; */
+    padding: 5vh;
+    display: flex;
+
+}
+/* Updated Table Styles  */
+/* Header 1 */
+.Table1HEADER{
+    width: 100%;
+    padding: 2vh 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+/* Header 2 */
+.Table2HEADER{
+    width: 100%;
+    padding: 2vh 0;
+      font-size: 20px;
+     font-weight: bold;
+     text-align: center;
+}
+/* 
+.ThTdTable3Padding{
+    padding: 1vh 0.5vw;
+    text-align: center;
+    width: 20%;
+} */
+
+/*  Table 1 Td */
+.Table1Td{
+    border: 1px solid black;
+    text-align: right;
+    padding: 0.5vh 0.5vw;
+    padding-right: 20px;
+font-weight: bold;
+    font-size: 15px;
+    /* background-color: green; */
+}
+.Table12Td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 0.5vh 1vw;
+    font-size: 15px;
+    /* background-color: green; */
+}
+
+@media print {
+    .Table1Td{
+        font-size: 10px;
+                 padding: 1vh 0;
+                 padding-right: 20px;
+    }
+    .Table12Td{
+        font-size: 10px;
+                 padding: 1vh 0;
+                 padding-left: 20px;
+    }
+    .Table1HEADER{
+        font-size: 15px;
+    }
+      .Table2HEADER{
+        font-size: 15px;
+         padding: 1vh 0;
+         /* background-color: red; */
+    }
+}
+
+/* Table 2 Td */
+.Table2Td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 0.5vh 0.5vw;
+    font-size: 15px;
+    /* background-color: green; */
+    width: 20%;
+}
+.TableComplaintInfo2Td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 0.5vh 0.5vw;
+    font-size: 15px;
+    /* background-color: green; */
+    width: 5%;
+}
+
+@media print {
+.Table2Td{
+        font-size: 10px;
+    }
+    .TableComplaintInfo2Td{
+        font-size: 10px;
+    }
+}
+.ReportMainDiv{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fancy_link1 {
+    background-image: linear-gradient(red, blue);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 300ms ease;
+    text-decoration: none;
+    width: "80%";
+    word-spacing: 3px;
+    letter-spacing: 1px;
+  }
+  .fancy_link1:hover {
+    background-size: 100% 3px;
+    font-weight: 700;
+    font-size: 18;
+  }

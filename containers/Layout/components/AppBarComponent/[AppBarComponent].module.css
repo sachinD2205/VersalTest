@@ -1,0 +1,13 @@
+.appBar {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+.gridLayout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nameGridLayout {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,26 @@
+.card {
+  padding: 8px 16px;
+  width: max-content;
+
+  background-color: #206bc7;
+  color: white;
+
+  border-radius: 50px;
+
+  text-transform: uppercase;
+  font-size: medium;
+
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.card:active {
+  box-shadow: none;
+  transform: scale(0.95);
+}
+
+.card:hover {
+  background-color: #15c3e6;
+}

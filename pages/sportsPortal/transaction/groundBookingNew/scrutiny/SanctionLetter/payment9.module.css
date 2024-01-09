@@ -1,0 +1,514 @@
+.main {
+  display: flex;
+  margin-top: 2vh;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+  background-color: white;
+}
+.right {
+  /* background-color: coral; */
+  display: flex;
+  margin: 1vw;
+  /* margin-left: 2vw; */
+  /* justify-content: flex-end; */
+  padding: 1vh;
+  border: 1px solid black;
+}
+.middle {
+  /* background-color: darkolivegreen; */
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  /* width: 25%; */
+  /* justify-content: center; */
+  /* justify-content: center; */
+
+  /* align-items: center; */
+}
+.left {
+  width: 40%;
+  margin-left: 3vw;
+}
+.left1 {
+  width: 80%;
+  margin-left: 3vw;
+}
+
+.right1 {
+  /* background-color: coral; */
+  display: flex;
+  margin: 1vw;
+  /* margin-left: 2vw; */
+  /* justify-content: flex-end; */
+  padding: 1vh;
+  /* border: 1px solid black; */
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  width: 20%;
+  margin: 1vw;
+  margin-bottom: 1vw;
+  padding-left: 3vw;
+  /* justify-content: space-evenly; */
+}
+.small {
+  display: flex;
+  width: 85vw;
+  flex-direction: column;
+  border: 1px solid black;
+}
+/* .receipt {
+  border: 1px solid black;
+} */
+.one {
+  display: flex;
+  /* border: 1px solid black; */
+}
+.two {
+  /* border: 1px solid black; */
+  padding: 2vw;
+}
+/* .order {
+  margin-left: 2vw;
+  border: 1px solid black;
+  width: 60%;
+  height: 25vh;
+  padding: 2vh;
+} */
+.bottomContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 9vh;
+}
+.enquiry {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 9vh; */
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5vh;
+}
+.date {
+  margin-top: 2vh;
+}
+.heading {
+  background-color: rgb(6, 243, 243);
+  text-align: center;
+  border: 1px solid black;
+}
+
+.heading1 {
+  /* background-color: rgb(101, 243, 6); */
+  text-align: justify;
+  border: 1px solid black;
+}
+
+.innerTable {
+  margin: 4vh;
+  /* background-color: rgb(101, 243, 6); */
+  text-align: justify;
+  border: 1px solid black;
+}
+
+.table {
+  border: 1px solid black;
+}
+
+.signature {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* margin-top: 9vh; */
+  /* margin-left: auto; */
+  margin-left: auto;
+}
+
+.canvaSign {
+  border: 1px solid black;
+}
+
+.goshwara tr td {
+  border: 1px solid black;
+  width: 50%;
+}
+
+.report {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.trrow {
+  display: flex;
+}
+
+.data {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.data tr th {
+  border: 1px solid black;
+}
+
+.dat1 .tdcard {
+  display: flex;
+  justify-content: center;
+}
+
+.tRcard {
+  display: flex;
+  justify-content: center;
+}
+
+.trrowf {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-start;
+  padding-left: 40px;
+  margin-top: 2vh;
+}
+
+.add1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-start;
+  padding-left: 40px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+.date2 {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.main {
+  display: flex;
+  margin-top: 2vh;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+  background-color: white;
+}
+
+.right {
+  /* background-color: coral; */
+  display: flex;
+  margin: 1vw;
+  margin-left: 2vw;
+  /* justify-content: flex-end; */
+  padding: 1vh;
+  border: 1px solid black;
+}
+
+.middle {
+  /* background-color: darkolivegreen; */
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  /* width: 25%; */
+  /* justify-content: center; */
+  /* justify-content: center; */
+
+  /* align-items: center; */
+}
+
+.left {
+  width: 30%;
+  margin-left: 3vw;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  width: 20%;
+  margin: 1vw;
+  margin-left: 0 !important;
+  margin-bottom: 1vw;
+  padding-left: 3vw;
+  /* justify-content: space-evenly; */
+}
+
+.logo1 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  width: 20%;
+  margin: 1vw;
+  margin-bottom: 1vw;
+  padding-left: 20vh;
+
+  /* justify-content: space-evenly; */
+}
+
+.small {
+  display: flex;
+  width: 85vw;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+/* .receipt {
+  border: 1px solid black;
+} */
+.one {
+  display: flex;
+  justify-content: space-around;
+  /* margin: auto; */
+  /* border: 1px solid black; */
+}
+
+/* .order {
+  margin-left: 2vw;
+  border: 1px solid black;
+  width: 60%;
+  height: 25vh;
+  padding: 2vh;
+} */
+.bottomContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 9vh;
+}
+
+.enquiry {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 9vh; */
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5vh;
+}
+
+.date {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  background-color: rgb(213 227 229);
+  text-align: center;
+  border: 1px solid black;
+}
+
+.table {
+  border: 1px solid black;
+}
+
+.signature {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* margin-top: 9vh; */
+  /* margin-left: auto; */
+  margin-left: auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+.date2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.date3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.date4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.report {
+  border: 1px solid black;
+  width: 90%;
+  margin-left: 45px;
+}
+
+.report_table > thead > tr > th {
+  border: 1px solid black;
+}
+
+.report_table > tbody > tr > td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.report_table > tbody > tr > th {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.report_table > thead > tr > td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.report_table > thead {
+  width: 80%;
+}
+
+.report_table {
+  width: 90%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.foot {
+  display: flex;
+  /* align-content: center; */
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .main {
+  display: flex;
+  margin-top: 2vh;
+  justify-content: space-around;
+  background-color: white;
+}
+.right {
+  display: flex;
+  margin: 1vw;
+  padding: 1vh;
+  border: 1px solid black;
+}
+.middle {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+.left {
+  width: 40%;
+  margin-left: 3vw;
+}
+.left1 {
+  width: 80%;
+  margin-left: 3vw;
+}
+
+.right1 {
+  display: flex;
+  margin: 1vw;
+  padding: 1vh;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 1vw;
+  margin-bottom: 1vw;
+  padding-left: 3vw;
+}
+.small {
+  display: flex;
+  width: 85vw;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.one {
+  display: flex;
+}
+.two {
+  padding: 2vw;
+}
+.bottomContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 9vh;
+}
+.enquiry {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5vh;
+}
+.date {
+  margin-top: 2vh;
+}
+.heading {
+  background-color: rgb(6, 243, 243);
+  text-align: center;
+  border: 1px solid black;
+}
+
+.heading1 {
+  
+  text-align: justify;
+  border: 1px solid black;
+}
+
+.innerTable {
+  margin: 4vh;
+  text-align: justify;
+  border: 1px solid black;
+}
+
+.table {
+  border: 1px solid black;
+}
+
+.signature {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+ 
+  margin-left: auto;
+}
+
+.canvaSign {
+  border: 1px solid black;
+}
+.foot {
+  display: flex;
+  
+  align-items: center;
+} */

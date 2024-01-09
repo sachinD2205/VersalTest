@@ -1,0 +1,106 @@
+  .details {
+    background: linear-gradient(90deg, rgb(7 110 230 / 91%) 2%, rgb(210 242 249) 100%);
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .h1Tag {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+  }
+  
+  .row {
+    margin-top: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .row1 {
+    margin-top: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .row3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .row4 {
+    margin-top: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .row5 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .appDetails {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .table {
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  .report_table {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .report_table > thead > tr > th,
+  .report_table > thead > tr > td,
+  .report_table > tbody > tr > td {
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .tfoot {
+    border: 1px solid black;
+  }
+  
+  .data1 {
+    font-size: 15px;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+  }
+  
+  .date2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .labelValue {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .date3 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  
+  .date4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  

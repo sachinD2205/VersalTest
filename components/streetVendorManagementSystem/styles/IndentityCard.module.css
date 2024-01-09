@@ -1,0 +1,207 @@
+.MainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.Paper {
+  padding: 5vh 0vw 10vh 0vw;
+  background-color: "yellow";
+}
+
+.Table {
+  width: 50%;
+  border-collapse: separate;
+  padding: 3vh 3vw 3vh 3vw;
+  border: 3px solid black;
+  table-layout: fixed;
+}
+
+.Center {
+  text-align: center;
+}
+
+.End {
+  text-align: end;
+}
+
+.Pathavikaretha {
+  font-size: 15px;
+}
+
+.Parisht {
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 2vh 0vw 1vh 0vw;
+}
+
+.NamunaAndOther {
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+}
+
+/* .Image {
+  width: 15vw;
+  height: 20vh;
+  border: 2px solid black;
+} */
+
+.ImageOp {
+  /* position: absolute; */
+  margin-bottom: 17vh;
+  width: 15vw;
+  height: 20vh;
+  border: 1px solid black;
+}
+
+.TrAlong {
+  padding: 2vh 0vw 0vh 0vw;
+  /* background-color: yellow; */
+}
+
+/* 
+.Table2{
+background-color: yellow;
+width: 100%;
+height: 100%;
+} */
+
+/* .Table33{
+background-color: gray;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+border-collapse: separate;
+} */
+
+/* .Table3{
+    height: 100%;
+background-color: blue;
+width: 100%;
+height: 100%;
+table-layout:fixed;
+} */
+/* 
+.ImageTd{
+    background-color: red;
+    box-sizing: content-box;
+     height: 100%;
+} */
+
+/* .Signature{
+    justify-content: end;
+    
+    background-color: green;
+    box-sizing: content-box;
+} */
+
+/* .PhotoSignatureMainDiv{
+    background-color: green;
+    height: 100%;
+} */
+
+/* .GhenaHeight{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    height: 100%;
+    box-sizing: border-box;
+} */
+
+/* 
+.GhenaHeight{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    height: 100%;
+} */
+
+/* 
+.Header{
+
+} */
+
+/* .HeaderContent{
+
+} */
+
+/* Print  media Query */
+@media only print {
+  .Table {
+    width: 70%;
+    border-collapse: separate;
+    padding: 3vh 3vw 3vh 3vw;
+    margin: 5vh 0vw 0vh 0vw;
+    border: 3px solid black;
+    table-layout: fixed;
+    /* background-color: yellow; */
+  }
+
+  .Center {
+    text-align: center;
+  }
+
+  .End {
+    text-align: end;
+  }
+
+  .Pathavikaretha {
+    font-size: 15px;
+  }
+
+  .Parisht {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 2vh 0vw 1vh 0vw;
+  }
+
+  .NamunaAndOther {
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .ImageOp {
+    /* position: absolute; */
+    margin-bottom: 10vh;
+    width: 15vw;
+    height: 12vh;
+    border: 1px solid black;
+  }
+
+  .TrAlong {
+    padding: 2vh 0vw 0vh 0vw;
+    /* background-color: yellow; */
+  }
+}
+
+/* mobile View Medial Query */
+@media only screen and (max-width: 480px) {
+  .Table {
+    width: 100%;
+    border-collapse: separate;
+    padding: 3vh 3vw 3vh 3vw;
+    border: 3px solid black;
+    table-layout: fixed;
+  }
+
+  .ImageOp {
+    /* position: absolute; */
+    margin-bottom: 38vh;
+    width: 8vw;
+    height: 8vh;
+    border: 1px solid black;
+    /* width: 33vw; */
+  }
+
+  .TrAlong {
+    padding: 2vh 0vw 0vh 0vw;
+    /* background-color: yellow; */
+  }
+}

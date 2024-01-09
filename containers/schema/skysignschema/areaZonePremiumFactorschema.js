@@ -1,0 +1,15 @@
+import * as yup from "yup";
+
+// schema - validation
+let Schema = yup.object().shape({
+  areaZonePremiumPrefix: yup
+    .string()
+    .required("Area Zone Premium   Prefix is Required !!!"),
+  fromDate: yup.string().nullable().required("From Date is Required !!!"),
+  toDate: yup.string().nullable().required("todate is Required !!!"),
+  areaZonePremium: yup.string().required("Area Zone Premium  is Required !!!"),
+  areaZonePremiumFactor: yup.string().required("Area Zone Premium Factor  is Required !!!"),
+  //remark:yup.string().required("remark is Required !!!")
+});
+
+export default Schema;

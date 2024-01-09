@@ -1,0 +1,22 @@
+.openingTable tr 
+{
+  border: 2px solid black;
+  /* width: 100%; */
+
+}
+.openingTable th 
+{
+  border: 2px solid black;
+  
+}
+.openingTable td
+{
+  border: 2px solid black;
+  text-align: center;
+  
+}
+.editableTextField
+{
+    width: 100%;
+    text-align: center;
+}

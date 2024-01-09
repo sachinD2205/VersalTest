@@ -1,0 +1,30 @@
+.main {
+  padding: 3%;
+}
+
+.title {
+  background: linear-gradient(to right, #125597, #9ccdff);
+  color: white;
+  padding: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: larger;
+  border-radius: 20px;
+}
+
+.row {
+  margin-top: 20px;
+  padding: 0% 3%;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.buttons {
+  margin-top: 7vh;
+  display: flex;
+  justify-content: space-around;
+}

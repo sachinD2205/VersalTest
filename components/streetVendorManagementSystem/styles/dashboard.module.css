@@ -1,0 +1,390 @@
+.abovePaperdiv {
+  background-color: yellow;
+  margin: 0;
+  margin-top: 5vh;
+  padding-top: 5vh;
+  margin: 5vh 0;
+}
+
+/* mainPaper  */
+.paper {
+  /* position: relative; */
+  margin: 5vh 1vw;
+  padding: 1vh 1vw;
+  border: 2px solid black;
+  /* background-color: red; */
+}
+
+/* headerPaper */
+.hearderPaper {
+  margin: 1vh 1vw;
+  padding: 1vh 1vw;
+  /* background-color: slateblue; */
+}
+
+/* tablePaper */
+.tablePaper {
+  margin: 1vh 1vw;
+  padding: 1vh 1vw;
+  /* background-color: yellow; */
+}
+
+
+
+/* mainHeaderText */
+.mainHeader {
+  padding: 3vh 0;
+  text-align: center;
+  color: red;
+}
+
+
+
+
+
+
+/* .colorGreen {
+  border: 2px solid red;
+  color: rgb(32, 0, 128);
+} */
+
+/* -------------------------------------------- animation ------------------------------------ */
+
+.one:hover {
+  cursor: pointer;
+  /* animation-name: bounce; */
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.bounce:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* .two {
+  margin: 6px;
+} */
+
+/* .testT {
+  margin: 6px;
+} */
+
+/* .testf {
+  margin: 6px;
+} */
+
+
+
+/* .borderLeft {
+  border-left: green solid 1px;
+  position: absolute;
+} */
+
+/* .fields {
+  margin: 1vw;
+} */
+
+/* .gridCenter {
+  display: flex;
+} */
+
+/* .buttonRow {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------- */
+
+/* --------------------------------- */
+/* --------------------------------- */
+
+
+/* --------------------------------- */
+
+
+.DashBoardHeader{
+  color:red;
+  font-weight:bold;
+  text-align: center;
+  font-size: 25px;
+  margin:4vh 0vw 4vh 0vw;
+  /* background-color: darkturquoise; */
+}
+
+/* cardPaper */
+.cardPaper {
+  /* background-color: rgb(249, 9, 249); */
+}
+
+
+
+.test {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2vw 2vh;
+  margin: 3vh 3vw;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+
+.one {
+  margin: 1vh 1vw;
+  /* background-color: rgb(232, 6, 6); */
+
+}
+
+
+.icono {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.oneApplication{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:1vh 1vw;
+  /* background-color: yellow; */
+}
+.oneApplication:hover{
+  /* background-color: lightblue; */
+}
+.Button1111{
+margin: 0;
+padding: 0;
+}
+.Button1111:hover{
+    background-color:lightcyan ;
+}
+
+.HeaderIconStartText{
+  padding: 1vh 1vw;
+}
+
+.HeaderIconMiddleText{
+  color:black;
+  font-weight: bold;
+   padding: 1vh 1vw;
+}
+
+.HeaderIconEndText{
+  /* color:green; */
+  font-weight: bold;
+   padding: 1vh 1vw;
+   /* font-size: 15px ; */
+}
+
+
+.Divider{
+   width: 3px;
+  background-color: black;
+}
+
+.TotalApplicationColor{
+  color:blue;
+
+}
+
+.ApprovedApplicationColor{
+  color:green;
+  font-size:20px ;
+}
+
+.PendingApplicationColor{
+  color:orange;
+  font-size:20px ;
+}
+
+.RejectedApplicationColor{
+  color:red;
+  font-size:20px ;
+}
+
+.Approved{
+ display:flex;
+ flex-direction:row;
+   width:25%;
+
+ /* background-color: red; */
+}
+
+.Approved1{
+  display:flex;
+ flex-direction:column;
+ background-color: black;
+}
+
+/* verticalLine */
+.jugaad {
+  height: 75px;
+  margin-top: 15px;
+  width: 2px;
+  background-color: red;
+  /* border: 2px solid orange; */
+}
+
+/*  Media Query */
+@media screen and (max-width: 1200px){
+.DashBoardHeader{
+  color:red;
+  font-weight:bold;
+  text-align: center;
+  font-size: 25px;
+  margin:4vh 0vw 4vh 0vw;
+  /* background-color: yellow; */
+}
+
+}
+
+
+
+ @media screen and  (min-width:992px)and (max-width: 1199.98px){
+.DashBoardHeader{
+  color:red;
+  font-weight:bold;
+  text-align: center;
+  font-size: 25px;
+  margin:4vh 0vw 4vh 0vw;
+  /* background-color: blue; */
+}
+
+ }
+
+
+ @media screen and (min-width:768px)and (max-width: 991.98px){
+.DashBoardHeader{
+  color:red;
+  font-weight:bold;
+  text-align: center;
+  font-size: 25px;
+  margin:4vh 0vw 4vh 0vw;
+  /* background-color: orange; */
+}
+
+ }
+
+
+@media screen and  (min-width:576px)and (max-width:767.98px){
+.DashBoardHeader{
+  color:red;
+  font-weight:bold;
+  text-align: center;
+  font-size: 25px;
+  margin:4vh 0vw 4vh 0vw;
+  /* background-color: grey; */
+}
+
+}
+
+   @media screen and (min-width:480px)and (max-width:575.98px){
+    .DashBoardHeader{
+  color:red;
+  font-weight:bold;
+  text-align: center;
+  font-size: 22px;
+  margin:4vh 2vw 4vh 2vw;
+  /* background-color: green; */
+}
+
+   }
+
+
+
+   @media screen and (min-width:320px)and (max-width:479.98px){
+    .DashBoardHeader{
+  color:red;
+  font-weight:bold;
+  text-align: center;
+  font-size: 20px;
+  margin:4vh 3vw 4vh 3vw;
+  /* background-color: blueviolet; */
+}
+
+   }
+  
+    @media screen and (max-width:319.98px){
+      .DashBoardHeader{
+  color:red;
+  font-weight:bold;
+  text-align: center;
+  font-size: 15px;
+  margin:4vh 3vw 4vh 3vw;
+  /* background-color: blue; */
+}
+
+   }
+
+
+
+
+
+/* 
+
+
+@media screen and (max-width: 1200px){
+
+}
+
+
+
+ @media screen and  (min-width:992px)and (max-width: 1199.98px){
+
+ }
+
+
+ @media screen and (min-width:768px)and (max-width: 991.98px){
+
+ }
+
+
+@media screen and  (min-width:576px)and (max-width:767.98px){
+
+}
+
+   @media screen and (min-width:480px)and (max-width:575.98px){
+   }
+
+   @media screen and (min-width:320px)and (max-width:479.98px){
+   }
+  
+    @media screen and (max-width:319.98px){
+   }
+
+
+
+ */

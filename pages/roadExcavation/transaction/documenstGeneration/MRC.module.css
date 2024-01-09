@@ -1,0 +1,178 @@
+.goshwara tr td {
+  border: 1px solid black;
+  /* width: 100%; */
+  border: 2px solid black;
+}
+
+.report {
+  border: 1px solid black;
+  width: 90%;
+  margin-left: 35px;
+  /* background-color: aqua; */
+}
+.trrow {
+  display: flex;
+  justify-content: flex-end;
+}
+.data {
+  border: 1px solid black;
+  width: 90%;
+  margin-left: 35px;
+}
+
+.data tr th {
+  border: 1px solid black;
+}
+
+.dat1 .tdcard {
+  display: flex;
+  justify-content: center;
+}
+.tRcard {
+  display: flex;
+  justify-content: center;
+}
+.trrowf {
+  display: flex;
+  justify-content: flex-end;
+}
+.one {
+  /* border: 1px solid black; */
+  /* background-color: darkgrey; */
+  width: 130px;
+  height: 100px;
+  margin-left: 20px;
+  /* margin-top: 20px; */
+}
+.two {
+  /* margin-top: 1vh; */
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.three {
+  /* border: 1px solid black;
+  background-color: darkgrey; */
+  width: 130px;
+  height: 100px;
+  margin-right: 20px;
+  /* margin-top: 1vh; */
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 1vh;
+}
+.demo {
+  font-size: larger;
+}
+.data1 {
+  font-size: 15px;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+.circle {
+  border: 1px solid black;
+  position: relative;
+
+  width: 8vh;
+  height: 4vh;
+  border-radius: 70%;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #030101;
+}
+.kahipn {
+  /* display: flex; */
+  border: 1px solid black;
+  width: 90%;
+  margin-left: 35px;
+  /* justify-content: space-between; */
+}
+
+.logo1 {
+  display: flex;
+  flex-direction: row;
+  margin: 1vh;
+  margin-left: 5vh;
+  /* margin-bottom: 1vw;
+  padding-right: 5vh;
+  justify-content: flex-end; */
+}
+
+.nameAdh {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.oneB {
+  border: 1px solid black;
+  background-color: darkgrey;
+  width: 80px;
+  height: 90px;
+  margin-left: 20px;
+  margin-top: 1vh;
+}
+.twoB {
+  margin-top: 1vh;
+  width: 160px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+.threeB {
+  border: 1px solid black;
+  background-color: darkgrey;
+  width: 80px;
+  height: 90px;
+  margin-right: 20px;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.mainB {
+  display: flex;
+  justify-content: space-around;
+  /* margin: 1vh; */
+}
+
+.kahipnB {
+  display: flex;
+  border: 1px solid black;
+  width: 90%;
+  margin-left: 35px;
+  justify-content: space-around;
+}
+
+.kahipnL {
+  display: flex;
+  padding-right: 5vh;
+  /* width: 90%; */
+  /* margin-left: 35px; */
+  /* justify-content: space-between; */
+}
+
+.nameAdh1 {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.a {
+  font-size: 12px;
+}
+
+.digital {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,123 @@
+.test {
+  display: flex;
+  padding: 5px;
+  /* margin-left: 40px; */
+  /* justify-content: center; */
+  justify-content: space-around;
+  align-content: space-around;
+
+  flex-wrap: wrap;
+
+  /* background-color: red; */
+}
+.one {
+  /* background-color: red; */
+  padding: 6px;
+  margin-left: 4px;
+}
+
+.jugaad {
+  height: 75px;
+  margin-top: 15px;
+  width: 2px;
+  background-color: rgba(132, 132, 132, 0.527);
+}
+
+.one:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.bounce:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.apprve {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.titlemodelremark {
+  display: flex;
+  margin: 3vh;
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    rgb(7 110 230 / 91%) 2%,
+    rgb(210 242 249) 100%
+  );
+}
+.boxRemark1 {
+  flex-direction: column;
+  display: flex;
+  background-color: whitesmoke;
+  margin-left: 120px;
+  margin-top: 10px;
+  overflow-y: hidden;
+  resize: none;
+  height: 270px;
+  width: 1050px;
+  position: "absolute";
+}
+
+.btnappr {
+  display: flex;
+  justify-content: space-around;
+  margin: 3vh;
+  /* margin-bottom: 20vh; */
+  /* background-color: #e6e6fa; */
+}
+.btndate {
+  margin-top: 8px;
+}
+
+.titlemodelremarkAprove {
+  display: flex;
+  margin: 3vh;
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    rgb(156 79 215 / 91%) 2%,
+    rgb(75 143 143) 100%
+  );
+}
+
+.two {
+  margin: 6px;
+}
+.testT {
+  margin: 6px;
+}
+.testf {
+  margin: 6px;
+}
+.icono {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.borderLeft {
+  border-left: green solid 1px;
+  position: absolute;
+}
+.fields {
+  margin: 1vw;
+}
+.gridCenter {
+  display: flex;
+}

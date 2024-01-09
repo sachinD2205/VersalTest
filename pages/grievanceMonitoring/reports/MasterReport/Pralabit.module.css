@@ -1,0 +1,76 @@
+.divhaitokayhay{
+    margin-right: 5;
+    margin-left: 5;
+    display: flex;
+    justify-content: center;
+    /* margin: 10; */
+    /* background-color: yellow; */
+}
+
+.table{
+    /* background-color: red; */
+    width: 90%;
+    /* width: 50 vw; */
+}
+
+.TableTd{
+    border: 1px solid black;
+    /* background-color: red; */
+    text-align: center;
+    padding: 0.5vh 0vw;
+    color: black;
+    font-size: 8px;
+}
+
+
+.TableTh{
+   font-weight: bold;
+}
+
+
+.Table1Header{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 1vh 0vw;
+    /* background-color: yellow; */
+    /* border: 1px solid black; */
+}
+
+.Table2Header{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 2vh 0vw;
+    /* background-color: yellow; */
+    /* border: 1px solid black; */
+}
+
+.Table3Header{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bolder;
+    padding: 1vh 0vw;
+    border: 1px solid black;
+    /* background-color: yellow; */
+}
+
+
+.Table3HeaderMiddle{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 1vh 0vw;
+    border-top: 1px solid black;
+    /* border: 1px solid black; */
+    /* background-color: yellow; */
+}
+
+.SumTableTdBottom{
+    border-bottom: 1px solid black;
+}
+
+.ButtonStyle{
+    color: black;
+    font-size: 8px;
+}

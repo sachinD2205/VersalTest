@@ -1,0 +1,250 @@
+.main {
+  /* padding: 5px; */
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+
+.fpaper {
+  padding: 5px;
+  display: flex;
+}
+
+.spaper {
+  padding: 5px;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+}
+
+.small {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.addbtn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh;
+  margin-right: 40px;
+}
+
+.titleM {
+  display: flex;
+  margin: 2vh;
+  margin-right: 40px;
+  justify-content: space-around;
+}
+
+.row {
+  /* margin-top: 2vh; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row1 {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.wardZone {
+  margin-top: 3vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 3vh;
+}
+
+.row2 {
+  /* margin-top: 5vh; */
+  flex-wrap: wrap;
+  /* margin-left: 70px; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.second {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.paperCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.tableButton {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Button1 {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.title {
+  margin-top: 3vh;
+  margin-left: 15vh;
+}
+
+.row3 {
+  /* margin-top: 3vh; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* margin-bottom: 5vh; */
+}
+
+.uploadButton:hover {
+  cursor: pointer;
+}
+
+.uploadButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: max-content;
+  padding: 5px 5px;
+}
+
+.fileName {
+  color: #9c27b0;
+  font-size: 12;
+  font-weight: bold;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+}
+
+.slot {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: flex-end;
+}
+
+.box {
+  flex-direction: column;
+  display: flex;
+  background-color: whitesmoke;
+  margin-left: 25%;
+  margin-top: 15%;
+  overflow-y: hidden;
+  resize: none;
+  height: 250px;
+  width: 800px;
+  position: 'absolute';
+}
+
+.btnappr {
+  display: flex;
+  justify-content: flex-end;
+  margin: 3vh;
+  background-color: #e6e6fa;
+}
+
+.titleM {
+  display: flex;
+  margin: 2vh;
+  margin-right: 40px;
+  justify-content: space-around;
+}
+
+.titlemodelT {
+  display: flex;
+  margin: 3vh;
+  justify-content: space-between;
+  background-color: #9c27b0;
+}
+
+/* .titlemodelB {
+  display: flex;
+  margin: 3vh;
+  justify-content: space-around;
+  background-color: #e6e6fa;
+} */
+
+.btnSerch {
+  margin-top: 18px;
+}
+
+.btndate {
+  margin-top: 8px;
+}
+
+.Adress {
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+.details {
+  background: linear-gradient(90deg,
+      rgb(7 110 230 / 91%) 2%,
+      rgb(210 242 249) 100%);
+
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 30px;
+  /* margin-left: 25px; */
+  /* height: 6vh; */
+}
+
+.h1Tag {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25px;
+}
+
+.rowboard {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.displayDoc {
+  display: flex;
+  align-items: center;
+}
+.doctable {
+  margin-top: 20px;
+  margin-left: 10vw;
+  border-collapse: collapse;
+  width: 80%;
+  border: 2px solid #000;
+}
+.docTh {
+  text-align: center;
+  /* padding: 1px; */
+  border: 2px solid #000;
+}
+.docTd {
+  text-align: left;
+  /* padding: 1px; */
+  border: 2px solid #000;
+}
+.AcceptBtn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+}

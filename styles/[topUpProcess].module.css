@@ -1,0 +1,22 @@
+ 
+  /* style for table heading */
+  .tableHead {
+    background: linear-gradient(
+      90deg,
+      rgb(7 110 230 / 91%) 2%,
+      rgb(76, 108, 203) 100%
+    );
+    border-radius: 100px;
+    margin-bottom: 1%;
+    width: 100%;
+    font-weight: 480;
+  }
+  
+  /* table heading text style */
+  .h1Tag {
+    color: #ecf0f1;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40%;
+    font-size: 4.4vmin;  
+  }

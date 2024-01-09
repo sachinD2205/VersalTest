@@ -1,0 +1,11 @@
+.content{
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
+}
+.report {
+    border: 1px solid black;
+    width: 100%;
+  }

@@ -1,0 +1,71 @@
+.main {
+  padding: 3%;
+}
+
+.title {
+  background-color: #1976d2;
+  color: white;
+  padding: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: larger;
+  border-radius: 20px;
+}
+
+.subTitle {
+  background-color: #1976d2;
+  color: white;
+  margin-top: 40px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: medium;
+  border-radius: 20px;
+}
+
+.bigText {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  resize: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: medium;
+
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+}
+
+.diagnosisDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  column-gap: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.row > span {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-size: medium;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.buttons {
+  margin-top: 8vh;
+  display: flex;
+  justify-content: space-evenly;
+}

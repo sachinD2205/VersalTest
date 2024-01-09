@@ -1,0 +1,585 @@
+import React, { useEffect, useRef, useState } from "react";
+import styles from "../../../styles/common/reports/listOfDepartment.module.css";
+import Head from "next/head";
+import {
+  Box,
+  Button,
+  FormControl,
+  FormHelperText,
+  Grid,
+  InputLabel,
+  Link,
+  MenuItem,
+  Paper,
+  Select,
+  TextField,
+} from "@mui/material";
+import FormattedLabel from "../../../containers/reuseableComponents/FormattedLabel";
+import ReportLayout from "../../../containers/reuseableComponents/ReportLayout";
+import { Controller, useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
+import { DatePicker, LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
+import moment from "moment";
+import { Print, Search } from "@mui/icons-material";
+import { useReactToPrint } from "react-to-print";
+import { useSelector } from "react-redux";
+import axios from "axios";
+import URLs from "../../../URLS/urls";
+import urls from "../../../URLS/urls";
+import { AdapterMoment } from "@mui/x-date-pickers/AdapterMoment";
+import { DataGrid, GridToolbar } from "@mui/x-data-grid";
+import schema from "../../../containers/schema/common/reports/departmentWisePendingApplicationSchema";
+import Loader from "../../../containers/Layout/components/Loader";
+import BreadcrumbComponent from "../../../components/common/BreadcrumbComponent";
+import { catchExceptionHandlingMethod } from "../../../util/util";
+
+const Index = () => {
+  // @ts-ignore
+  const language = useSelector((state) => state.labels.language);
+  const user = useSelector((state) => state.user.user);
+  const componentRef = useRef(null);
+  const [table, setTable] = useState([]);
+  const [showTable, setShowTable] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [fetchedData, setFetchedData] = useState([]);
+  const [cfcs, setCfcs] = useState([]);
+  const [departments, setDepartments] = useState([]);
+  const [catchMethodStatus, setCatchMethodStatus] = useState(false);
+  // callCatchMethod
+  const callCatchMethod = (error, language) => {
+    if (!catchMethodStatus) {
+      setTimeout(() => {
+        catchExceptionHandlingMethod(error, language);
+        setCatchMethodStatus(false);
+      }, [0]);
+      setCatchMethodStatus(true);
+    }
+  };
+  const {
+    watch,
+    handleSubmit,
+    register,
+    setValue,
+    control,
+    formState: { errors },
+  } = useForm({
+    criteriaMode: "all",
+    resolver: yupResolver(schema),
+  });
+
+  const handleToPrint = useReactToPrint({
+    content: () => componentRef.current,
+    // @ts-ignore
+    documentTitle: watch("departmentType") + " Report",
+  });
+
+  useEffect(() => {
+    getCfcs();
+    getDepartment();
+  }, []);
+
+  const getCfcs = () => {
+    setLoading(true);
+    axios
+      .get(`${urls.CFCURL}/master/cfcCenters/getAll`, {
+        headers: {
+          Authorization: `Bearer ${user.token}`,
+        },
+      })
+      .then((r) => {
+        setLoading(false);
+        console.log("cfcs", r);
+        setCfcs(
+          r.data.cfcCenters.map((row) => ({
+            ...row,
+          }))
+        );
+      })
+      ?.catch((err) => {
+        console.log("err", err);
+        setLoading(false);
+        callCatchMethod(err, language);
+      });
+  };
+
+  const getTableData = () => {};
+
+  const getDepartment = () => {
+    setLoading(true);
+    axios
+      .get(`${urls.CFCURL}/master/application/getAll`)
+      .then((res) => {
+        setLoading(false);
+        setDepartments(
+          res.data.application.map((r, i) => ({
+            id: r.id,
+            applicationNameEng: r.applicationNameEng,
+          }))
+        );
+      })
+      ?.catch((err) => {
+        console.log("err", err);
+        setLoading(false);
+        callCatchMethod(err, language);
+      });
+  };
+
+  const columns = [
+    {
+      field: "srNo",
+      headerName: language == "en" ? "Sr No" : "अनु क्र",
+      flex: 0.2,
+    },
+    {
+      field: "departmentName",
+      headerName: language == "en" ? "Department Name" : "विभागाचे नाव",
+      flex: 1,
+    },
+    {
+      field: "dueCount",
+      headerName: language == "en" ? "Due Count" : "देय संख्या",
+      flex: 0.4,
+      renderCell: (params) => {
+        return (
+          <>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => {
+                if (params?.row?.dueCount != 0) {
+                  setShowTable(true);
+                  setFetchedData(
+                    params?.row?.pendingApplicationDetailsReports
+                      ?.filter((val) => val?.due == 1 && val)
+                      ?.map((val, index) => {
+                        return {
+                          srNo: index + 1,
+                          applicationNumber: val?.applicationNo,
+                          subject: val?.serviceName,
+                          applicationDate: moment(val?.applicationDate).format(
+                            "DD/MM/YYYY"
+                          ),
+                          dueDate: "-",
+                          workArea: "-",
+                        };
+                      })
+                  );
+                }
+              }}
+            >
+              {params?.row?.dueCount}
+            </Link>
+          </>
+        );
+      },
+    },
+    {
+      field: "overDueCount",
+      headerName:
+        language == "en" ? "Over Due Count" : "मुदत संपुन गेलेला रक्कम",
+      flex: 0.4,
+      renderCell: (params) => {
+        return (
+          <>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => {
+                if (params?.row?.overDueCount != 0) {
+                  setShowTable(true);
+                  setFetchedData(
+                    params?.row?.pendingApplicationDetailsReports
+                      ?.filter((val) => val?.overDue == 1 && val)
+                      ?.map((val, index) => {
+                        return {
+                          srNo: index + 1,
+                          applicationNumber: val?.applicationNo,
+                          subject: val?.serviceName,
+                          applicationDate: moment(val?.applicationDate).format(
+                            "DD/MM/YYYY"
+                          ),
+                          dueDate: "-",
+                          workArea: "-",
+                        };
+                      })
+                  );
+                }
+              }}
+            >
+              {params.row.overDueCount}
+            </Link>
+          </>
+        );
+      },
+    },
+  ];
+
+  const _columns = [
+    {
+      headerClassName: "cellColor",
+      field: "srNo",
+      headerAlign: "center",
+      formattedLabel: "srNo",
+      width: 50,
+      align: "center",
+    },
+    {
+      headerClassName: "cellColor",
+      field: "applicationNumber",
+      headerAlign: "center",
+      formattedLabel: "applicationNumber",
+      width: 150,
+      align: "center",
+    },
+    {
+      headerClassName: "cellColor",
+      field: "subject",
+      headerAlign: "center",
+      formattedLabel: "subject",
+      width: 400,
+      align: "center",
+    },
+    {
+      headerClassName: "cellColor",
+      field: "applicationDate",
+      headerAlign: "center",
+      formattedLabel: "applicationDate",
+      width: 110,
+      align: "center",
+    },
+    {
+      headerClassName: "cellColor",
+      field: "dueDate",
+      headerAlign: "center",
+      formattedLabel: "dueDate",
+      width: 100,
+      align: "center",
+    },
+
+    {
+      headerClassName: "cellColor",
+      field: "workArea",
+      headerAlign: "center",
+      formattedLabel: "workArea",
+      width: 150,
+      align: "center",
+    },
+  ];
+
+  const finalSubmit = (data) => {
+    setLoading(true);
+    let fromDate = moment(watch("fromDate")).format("DD/MM/YYYY");
+    let toDate = moment(watch("toDate")).format("DD/MM/YYYY");
+
+    axios
+      .get(
+        `${
+          urls.CFCURL
+        }/trasaction/report/pendingAtDepartmentApplication?deptId=${watch(
+          "departmentKey"
+        )}&fromDate=${fromDate}&toDate=${toDate}`,
+        {
+          headers: {
+            Authorization: `Bearer ${user.token}`,
+          },
+        }
+      )
+      .then((res, index) => {
+        setLoading(false);
+        console.log("post", res);
+        if (res.status == 200) {
+          let data = res?.data?.reportResponceList;
+          setTable(
+            data?.map((val, index) => {
+              return {
+                ...val,
+                srNo: index + 1,
+                departmentName: val?.departmentName,
+                dueCount: val?.dueCount == null ? 0 : val?.dueCount,
+                overDueCount: val?.overDueCount == null ? 0 : val?.overDueCount,
+              };
+            })
+          );
+          if (data?.length == 0) {
+            sweetAlert("Info", "No records found", "info");
+          }
+        }
+      })
+      ?.catch((err) => {
+        console.log("err", err);
+        setLoading(false);
+        callCatchMethod(err, language);
+      });
+  };
+
+  console.log("table", table);
+
+  return (
+    <>
+      <Head>
+        <title>Department Wise Pending Application</title>
+      </Head>
+      <>
+        <BreadcrumbComponent />
+      </>
+      <Paper className={styles.main}>
+        <div className={styles.title}>
+          <FormattedLabel id="departmentWisePendingApplication" />
+        </div>
+        <Box>
+          {loading ? (
+            <Loader />
+          ) : (
+            <>
+              <form onSubmit={handleSubmit(finalSubmit)}>
+                <Grid container sx={{ padding: "10px" }}>
+                  <Grid
+                    item
+                    xs={4}
+                    sx={{ display: "flex", justifyContent: "center" }}
+                  >
+                    <FormControl
+                      fullWidth
+                      size="small"
+                      sx={{ width: "90%" }}
+                      error={errors.departmentKey}
+                    >
+                      <InputLabel id="demo-simple-select-standard-label">
+                        <FormattedLabel id="department" />
+                      </InputLabel>
+                      <Controller
+                        name="departmentKey"
+                        control={control}
+                        defaultValue=""
+                        render={({ field }) => (
+                          <Select
+                            // {...field}
+                            onChange={(value) => field.onChange(value)}
+                            value={field.value}
+                            label={<FormattedLabel id="department" />}
+                          >
+                            {departments?.map((item, i) => {
+                              return (
+                                <MenuItem key={i} value={item.id}>
+                                  {item.applicationNameEng}
+                                </MenuItem>
+                              );
+                            })}
+                          </Select>
+                        )}
+                      />
+                      <FormHelperText style={{ color: "red" }}>
+                        {errors?.departmentKey
+                          ? errors.departmentKey.message
+                          : null}
+                      </FormHelperText>
+                    </FormControl>
+                  </Grid>
+
+                  <Grid
+                    item
+                    xs={4}
+                    sx={{ display: "flex", justifyContent: "center" }}
+                  >
+                    <FormControl style={{}} error={errors?.fromDate}>
+                      <Controller
+                        name="fromDate"
+                        control={control}
+                        defaultValue={null}
+                        render={({ field }) => (
+                          <LocalizationProvider dateAdapter={AdapterMoment}>
+                            <DatePicker
+                              inputFormat="DD/MM/YYYY"
+                              label={
+                                <span style={{ fontSize: 16 }}>
+                                  <FormattedLabel id="fromDate" />
+                                </span>
+                              }
+                              value={field.value}
+                              onChange={(date) =>
+                                field.onChange(
+                                  moment(date).format("YYYY-MM-DD")
+                                )
+                              }
+                              selected={field.value}
+                              center
+                              renderInput={(params) => (
+                                <TextField
+                                  {...params}
+                                  error={errors?.fromDate}
+                                  size="small"
+                                  fullWidth
+                                  InputLabelProps={{
+                                    style: {
+                                      fontSize: 12,
+                                      marginTop: 3,
+                                    },
+                                  }}
+                                />
+                              )}
+                            />
+                          </LocalizationProvider>
+                        )}
+                      />
+                      <FormHelperText>
+                        {errors?.fromDate ? errors?.fromDate?.message : null}
+                      </FormHelperText>
+                    </FormControl>
+                  </Grid>
+                  <Grid
+                    item
+                    xs={4}
+                    sx={{ display: "flex", justifyContent: "center" }}
+                  >
+                    <FormControl style={{}} error={!!errors?.fromDate}>
+                      <Controller
+                        name="toDate"
+                        control={control}
+                        defaultValue={null}
+                        render={({ field }) => (
+                          <LocalizationProvider dateAdapter={AdapterMoment}>
+                            <DatePicker
+                              inputFormat="DD/MM/YYYY"
+                              label={
+                                <span style={{ fontSize: 16 }}>
+                                  <FormattedLabel id="toDate" />
+                                </span>
+                              }
+                              value={field.value}
+                              onChange={(date) =>
+                                field.onChange(
+                                  moment(date).format("YYYY-MM-DD")
+                                )
+                              }
+                              selected={field.value}
+                              center
+                              renderInput={(params) => (
+                                <TextField
+                                  {...params}
+                                  size="small"
+                                  fullWidth
+                                  error={errors?.toDate}
+                                  InputLabelProps={{
+                                    style: {
+                                      fontSize: 12,
+                                      marginTop: 3,
+                                    },
+                                  }}
+                                />
+                              )}
+                            />
+                          </LocalizationProvider>
+                        )}
+                      />
+                      <FormHelperText>
+                        {errors?.toDate ? errors?.toDate?.message : null}
+                      </FormHelperText>
+                    </FormControl>
+                  </Grid>
+                </Grid>
+                <div
+                  className={styles.centerDiv}
+                  style={{ gap: 20, marginTop: 20 }}
+                >
+                  <Button
+                    variant="contained"
+                    type="submit"
+                    endIcon={<Search />}
+                    size="small"
+                  >
+                    <FormattedLabel id="search" />
+                  </Button>
+                  <Button
+                    disabled={table.length == 0}
+                    variant="contained"
+                    onClick={handleToPrint}
+                    endIcon={<Print />}
+                    size="small"
+                  >
+                    <FormattedLabel id="print" />
+                  </Button>
+                </div>
+              </form>
+              <Box sx={{ padding: "10px" }}>
+                {table.length > 0 && (
+                  <div className={styles.centerDiv}>
+                    <DataGrid
+                      componentsProps={{
+                        toolbar: {
+                          showQuickFilter: true,
+                        },
+                      }}
+                      getRowId={(row) => row.srNo}
+                      components={{ Toolbar: GridToolbar }}
+                      autoHeight={true}
+                      density="compact"
+                      sx={{
+                        "& .super-app-theme--cell": {
+                          backgroundColor: "#E3EAEA",
+                          borderLeft: "10px solid white",
+                          borderRight: "10px solid white",
+                          borderTop: "4px solid white",
+                        },
+                        backgroundColor: "white",
+                        boxShadow: 2,
+                        border: 1,
+                        borderColor: "primary.light",
+                        "& .MuiDataGrid-cell:hover": {},
+                        "& .MuiDataGrid-row:hover": {
+                          backgroundColor: "#E3EAEA",
+                        },
+                        "& .MuiDataGrid-columnHeadersInner": {
+                          backgroundColor: "#556CD6",
+                          color: "white",
+                        },
+
+                        "& .MuiDataGrid-column": {
+                          backgroundColor: "red",
+                        },
+                      }}
+                      rows={table}
+                      columns={columns}
+                    />
+                  </div>
+                )}
+              </Box>
+              <Box
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
+                {" "}
+                {showTable && (
+                  <ReportLayout
+                    centerHeader
+                    showDates={watch("fromDate") && watch("toDate")}
+                    date={{
+                      from: moment(watch("fromDate")).format("DD-MM-YYYY"),
+                      to: moment(watch("toDate")).format("DD-MM-YYYY"),
+                    }}
+                    style={{
+                      marginTop: "5vh",
+                      boxShadow: "0px 2px 10px 0px rgba(0,0,0,0.75)",
+                    }}
+                    componentRef={componentRef}
+                    rows={fetchedData}
+                    customReportName={{
+                      en: "Department Wise Pending Application",
+                      mr: "विभागनिहाय प्रलंबित अर्ज",
+                    }}
+                    columns={_columns}
+                  />
+                )}
+              </Box>
+            </>
+          )}
+        </Box>
+      </Paper>
+    </>
+  );
+};
+
+export default Index;

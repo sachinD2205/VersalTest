@@ -1,0 +1,33 @@
+.userIdIp {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #cad9e5;
+  color: #000000;
+}
+
+.button:hover {
+  color: white;
+}
+
+.forgotPwContainer {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.formbottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 29px; */
+}
+
+.formbottom > h4 {
+  font-size: 18px;
+  color: white;
+  margin-top: -9px;
+}

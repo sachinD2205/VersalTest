@@ -1,0 +1,226 @@
+.goshwara tr td {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.report {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.trrow {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.data {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.data tr th {
+    border: 1px solid black;
+}
+
+.dat1 .tdcard {
+    display: flex;
+    justify-content: center;
+}
+
+.tRcard {
+    display: flex;
+    justify-content: center;
+}
+
+.trrowf {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.one {
+    /* border: 1px solid black; */
+    /* background-color: darkgrey; */
+    /* width: 200px;
+    height: 200px; */
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+.two {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.three {
+    /* border: 1px solid black;
+    background-color: darkgrey;
+    width: 200px;
+    height: 200px; */
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5vh;
+}
+
+.demo {
+    font-size: larger;
+}
+
+.data1 {
+    font-size: 15px;
+}
+
+.mmain {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.mone {
+    margin-top: 20px;
+    width: 200px;
+    /* height: 150px;
+    display: flex; */
+    justify-content: left;
+}
+
+.mtwo {
+    margin-top: 20px;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: left;
+}
+
+.lone {
+    margin-top: 20px;
+    width: 700px;
+    height: 150px;
+    display: flex;
+    justify-content: left;
+}
+
+.qrcode {
+    border: 1px solid black;
+    background-color: darkgrey;
+    width: 125px;
+    height: 125px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.mahlogo {
+    height: 10vh;
+    width: 10vw;
+}
+
+.headings {
+    /* font-size: 1rem; */
+    font-size: 1rem;
+}
+
+.headingContain {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.servicelogo {
+    height: 10vh;
+    width: 10vw;
+}
+
+.row1 {
+    /* display: flex;
+    margin: 5vh;
+    background-color: yellow; */
+}
+
+.mainHead1{
+    /* display: flex;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column; */
+}
+
+
+.img11{
+    /* background-color: yellow; */
+    width: 25%;
+    text-align: center;
+}
+
+.img22{
+    /* background-color: rgb(255, 0, 0); */
+    width: 25%;
+     text-align: center;
+}
+
+.row444{
+    width: 75%;
+    padding-left: 5vh;
+}
+.row444{
+    width: 25%;
+}
+
+@media  print {
+    .img11{
+        /* background-color: yellow; */
+        width: auto;
+        text-align: center;
+        padding-top: 2vh;
+    }
+
+    .img22{
+        /* background-color: rgb(255, 0, 0); */
+        width: auto;
+        text-align: center;
+        padding-top: 2vh;
+    }
+    /* .row444{
+        width: 75%;
+        padding-left: 2vh;
+    }
+    .row444{
+        width: 25%;
+    } */
+}
+
+.h11s{
+    /* background-color: blue; */
+    padding-top: 2vh;
+    width: 50%;
+}
+.ghh33{
+    width: 100%;
+    background-color: rgb(0, 72, 4);
+}
+.ghhh{
+    background-color: aqua;
+}
+
+.tr2{
+    /* padding:2vh 0; */
+    text-align: center;
+    line-height: 2vh;
+    /* background-color: brown; */
+    width: 100%;
+}
+
+.table2{
+    /* background-color: brown; */
+    width: 100%;
+}
+
+.textAlign{
+    text-align: center;
+}

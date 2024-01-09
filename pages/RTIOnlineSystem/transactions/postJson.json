@@ -1,0 +1,16 @@
+[
+    {
+      "id":1,
+      "postNm":"Speed Post"
+  
+    },
+    {
+      "id":2,
+      "postNm":"Normal Post"
+    },
+    {
+      "id":3,
+      "postNm":"State Post"
+    }
+   ]
+      

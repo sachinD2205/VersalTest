@@ -1,0 +1,40 @@
+.Paper{
+    padding: 3.5vh 0;
+    /* background-color: red; */
+}
+
+.GridItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.Grid{
+    /* background-color: rgb(68, 0, 255); */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.SearchHeader{
+    display: flex;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+    /* text-align: center; */
+}
+.fancy_link1 {
+    background-image: linear-gradient(red, blue);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 300ms ease;
+    text-decoration: none;
+    width: "80%";
+    word-spacing: 3px;
+    letter-spacing: 1px;
+  }
+  .fancy_link1:hover {
+    background-size: 100% 3px;
+    font-weight: 700;
+    font-size: 18;
+  }

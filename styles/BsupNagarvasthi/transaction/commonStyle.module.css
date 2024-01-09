@@ -1,0 +1,148 @@
+
+
+/* Added by satej on 13-09-2023 */
+
+.title {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    color: white;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18.72px;
+    border-radius: 100px;
+    font-weight: 500;
+    background:
+      linear-gradient( 90deg, rgb(72 115 218 / 91%) 2%, rgb(142 122 231) 100%);
+  }
+  
+  .h1TagTABLE {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18.72px;
+    color:white;
+    background-color: #1976D2;
+  }
+  
+  .buttonSave{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:white;
+    /* background-color: #1976D2; */
+  }
+
+  .buttonExit{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:white;
+    /* background-color: #D32F2F; */
+  }
+
+  .buttonBack{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:white;
+    /* background-color: #4923d3; */
+  }
+
+  .buttonPreview{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:white;
+    background-color: #2E7D32;
+  }
+
+  .buttonSubmit{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:white;
+    /* background-color: #1976D2; */
+  }
+
+  .tNcButton{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:white;
+    /* background-color: #1976D2; */
+  }
+
+  .uploadButton{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* color:#9C27B0; */
+    background-color: #1976D2;
+  }
+
+  .errorMessage{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:#D32F2F;
+    /* background-color: #1976D2; */
+  }
+
+  .successPopup{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#000000A6;
+    /* background-color: #1976D2; */
+  }
+
+  .successMessage{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:#000000A3;
+    /* background-color: #1976D2; */
+  }
+
+  .search{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:White;
+    background-color: #556CD6;
+  }
+  
+  .buttonPrint{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* color:#556CD6; */
+    color:White;
+    /* background-color: #1976D2; */
+  }
+
+  .acknowledgementTitle{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:#000000DE;
+    background-color: #ADD8E6;
+  }
+  
+  .buttonApprove{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    /* background-color: rgb(46, 125, 50); */
+  }
+
+  .buttonRevert{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    /* background-color: rgb(156, 76, 76); */
+  }
+
+  .buttonReject{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    /* background-color: rgb(211, 47, 47);; */
+  }
+
+  
+  .helperText{
+    color:red;
+    width: 100%;
+  }

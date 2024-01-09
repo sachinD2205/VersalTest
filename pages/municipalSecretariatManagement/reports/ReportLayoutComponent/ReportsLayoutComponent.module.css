@@ -1,0 +1,46 @@
+.wrapper {
+  padding: 2% 0%;
+  padding-left: 6%;
+  padding-right: 2%;
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middleHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subHeader {
+  margin-top: 30px;
+}
+
+.wrapper thead {
+  display: table-header-group;
+  padding: 3%;
+}
+
+.tableHeaders td {
+  background-color: #1976d2;
+  color: white;
+
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.tableData td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+@media print {
+  .wrapper {
+    min-height: 100vh;
+  }
+}

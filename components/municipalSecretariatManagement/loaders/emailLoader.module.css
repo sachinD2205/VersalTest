@@ -1,0 +1,45 @@
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 80px;
+}
+
+.loader-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Define a custom animation for each character */
+@keyframes colorChange {
+  0%,
+  100% {
+    color: #3498db;
+  }
+  25% {
+    color: #e74c3c;
+  }
+  50% {
+    color: #27ae60;
+  }
+  75% {
+    color: #f1c40f;
+  }
+}
+
+/* Apply the animation to each character with a delay */
+.loader-text span {
+  animation: colorChange 2s infinite;
+}
+
+/* Adjust the delay for each character */
+.loader-text span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.loader-text span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+/* Continue adjusting the delay for each character */

@@ -1,0 +1,80 @@
+.logo {
+  display: flex;
+}
+
+.bInfo {
+  /* border-style: solid; */
+  /* border-color: black;
+  border-width: 2px; */
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.query {
+  background-color: lightgray;
+  display: flex;
+}
+
+.h5 {
+  background-color: darkgrey;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+.add {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* background-color: darkslategrey; */
+}
+/* .add h5 {
+  color: white;
+} */
+.summary {
+  background-color: lightblue;
+}
+.summ {
+  display: flex;
+}
+
+.heading {
+  background-color: lightblue;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.table {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+.mainn {
+  display: flex;
+
+  justify-content: space-evenly;
+  border: 1px solid red;
+}
+.main {
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  margin: 3 px;
+  padding: 20px;
+  margin: 50px;
+  border-width: 3px;
+  /* display: flex;
+  padding: 10%; */
+}
+
+.smain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sHeading {
+  display: flex;
+  background-color: gray;
+}

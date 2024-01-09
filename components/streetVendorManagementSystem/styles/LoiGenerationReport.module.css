@@ -1,0 +1,73 @@
+.main {
+  display: flex;
+  margin-top: 2vh;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+  background-color: white;
+}
+.right {
+  /* background-color: coral; */
+  display: flex;
+  margin: 1vw;
+  padding: 1vh;
+  border: 1px solid black;
+}
+.middle {
+  /* background-color: darkolivegreen; */
+  margin-top: 2vh;
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  align-items: center;
+}
+.leftt {
+  width: 30%;
+  margin-left: 3vw;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  width: 20%;
+  margin: 1vw;
+  margin-bottom: 1vw;
+  padding-left: 3vw;
+  /* justify-content: space-evenly; */
+}
+.small {
+  display: flex;
+  width: 85vw;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.receipt {
+  border: 1px solid black;
+}
+.one {
+  display: flex;
+  border: 1px solid black;
+}
+.two {
+  border: 1px solid black;
+  padding: 2vw;
+}
+.order {
+  margin-left: 2vw;
+  border: 1px solid black;
+  width: 60%;
+  height: 25vh;
+  padding: 2vh;
+}
+.enquiry {
+  display: flex;
+  flex-direction: column;
+  margin-top: 9vh;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5vh;
+}
+.date {
+  margin-top: 2vh;
+}

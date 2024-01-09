@@ -1,0 +1,276 @@
+.MainDiv {
+  background-color: red;
+  padding: 5vh 5vw;
+}
+
+.Paper {
+  /* background-color: red; */
+  padding: 5vh 5vw;
+}
+
+.Stack {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10vh 0vw 2vh 0vw;
+}
+
+.ComponentToPrint {
+}
+
+.Table {
+  width: 100%;
+  border-collapse: separate;
+  padding: 5vh 5vw;
+}
+
+.HeaderBold {
+  color: black;
+  /* font-weight: bolder; */
+  font-size: 15px;
+}
+
+.Content {
+  color: black;
+  font-size: 15px;
+}
+
+.StanikPradhikaran {
+  color: black;
+  /* font-weight: bolder; */
+  font-size: 15px;
+}
+
+.StanikPradhikaranTD {
+  padding: 5vh 0vw 2vh 0vw;
+}
+
+.Date {
+  color: black;
+  /* font-weight: bolder; */
+  font-size: 15px;
+}
+
+.Signature {
+  color: black;
+  /* font-weight: bolder; */
+  font-size: 15px;
+}
+
+.DateSignatureTD {
+  padding: 10vh 0vw 2vh 0vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Center {
+  text-align: center;
+}
+
+.ImageTR {
+  padding: 2vh 0vw 5vh 0vw;
+  text-align: end;
+}
+
+.Image {
+  width: 15vw;
+  height: 20vh;
+  border: 2px solid black;
+}
+
+.Parisht {
+  color: black;
+  font-size: 25px;
+  /* font-weight: bolder; */
+  padding: 1vh 0vw;
+}
+.Pathavikaretha {
+  font-size: 18px;
+}
+
+.NamunaAndOther {
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+}
+
+.CommonTrPadding {
+  padding: 0.5vh 0vw;
+}
+
+.ImageBorder {
+  border: 2px solid black;
+}
+
+@media only print {
+  .Table {
+    width: 100%;
+    border-collapse: separate;
+    padding: 2vh 12vw;
+    /* border: 1px solid black; */
+    /* background-color: yellow; */
+  }
+
+  .HeaderBold {
+    color: black;
+    /* font-weight: bolder; */
+    font-size: 15px;
+  }
+
+  .Content {
+    color: black;
+    font-size: 15px;
+  }
+
+  .StanikPradhikaran {
+    color: black;
+    /* font-weight: bolder;     */
+    font-size: 15px;
+  }
+
+  .StanikPradhikaranTD {
+    padding: 5vh 0vw 0vh 0vw;
+  }
+
+  .Date {
+    color: black;
+    /* font-weight: bolder; */
+    font-size: 15px;
+  }
+
+  .Signature {
+    color: black;
+    /* font-weight: bolder; */
+    font-size: 15px;
+  }
+
+  .DateSignatureTD {
+    padding: 10vh 0vw 2vh 0vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Center {
+    text-align: center;
+  }
+
+  .ImageTR {
+    padding: 2vh 2vw 5vh 0vw;
+    text-align: end;
+  }
+
+  .Image {
+    width: 15vw;
+    height: 12vh;
+    border: 1px solid black;
+  }
+
+  .Parisht {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 1vh 0vw;
+  }
+  .Pathavikaretha {
+    font-size: 13px;
+  }
+
+  .NamunaAndOther {
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .CommonTrPadding {
+    padding: 0.2vh 0vw;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .OverFlowTable {
+    overflow: auto;
+  }
+  .Table {
+    width: 100%;
+    border-collapse: separate;
+    padding: 2vh 5vw 5vh 5vw;
+    /* border:1px solid black */
+    /* background-color: yellow; */
+  }
+
+  .HeaderBold {
+    color: black;
+    /* font-weight: bolder; */
+    font-size: 10px;
+  }
+
+  .Content {
+    color: black;
+    font-size: 10px;
+  }
+
+  .StanikPradhikaran {
+    color: black;
+    font-weight: bolder;
+    font-size: 10px;
+  }
+
+  .StanikPradhikaranTD {
+    padding: 2vh 0vw 0vh 0vw;
+  }
+
+  .Date {
+    width: 100%;
+    color: black;
+    /* font-weight: bolder; */
+    font-size: 10px;
+  }
+
+  .Signature {
+    color: black;
+    /* font-weight: bolder; */
+    font-size: 10px;
+  }
+
+  .DateSignatureTD {
+    padding: 7vh 0vw 1vh 0vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Center {
+    text-align: center;
+  }
+
+  .ImageTR {
+    padding: 1vh 1vw 3vh 0vw;
+    text-align: end;
+  }
+
+  .Image {
+    width: 8vw;
+    height: 8vh;
+    border: 1px solid black;
+  }
+
+  .Parisht {
+    color: black;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 1vh 0vw;
+  }
+  .Pathavikaretha {
+    font-size: 8px;
+  }
+
+  .NamunaAndOther {
+    font-size: 10px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .CommonTrPadding {
+    padding: 0.1vh 0vw;
+  }
+}

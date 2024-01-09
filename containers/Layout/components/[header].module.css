@@ -1,0 +1,68 @@
+.header {
+  /* overflow: hidden; */
+  background-color: #0084ff;
+  /* padding: 0.5vw; */
+  height: 9vh;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5vh;
+  padding-right: 6vw;
+}
+.leftheader {
+  display: flex;
+  align-items: center;
+}
+.rightheader {
+  display: flex;
+  align-items: center;
+}
+.heading {
+  margin-left: 1vw;
+}
+
+.header img {
+  cursor: pointer;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* .header a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.test {
+  height: 7vh;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.name > label:hover {
+  cursor: pointer;
+}

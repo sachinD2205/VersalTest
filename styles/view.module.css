@@ -1,0 +1,14 @@
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.buttons {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main {
+  padding: 3% 3%;
+}

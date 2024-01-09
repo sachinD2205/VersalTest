@@ -1,0 +1,208 @@
+.Paper{
+    padding:4vh 0vw 4vh 0vw;
+    margin:0vh 1vw 0vh 1vw;
+}
+
+
+/* Upload Button Title */
+.UploadButtonTitle1{
+    color: #E58484;
+    /* font-weight: bold; */
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    padding: 1vh 0vw 0vh 5vw;
+
+    }
+
+
+/* Main header */
+.MainHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1vh 1vw ;
+     margin: 2vh 10vw;
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius:5vh ;
+    background-color:#0084ff ;
+    font-weight: bold;
+}
+
+
+/* DataGrid Div */
+.DataGridDiv{
+    margin:2vh 4vw 2vh 4vw;
+}
+
+
+/* GridItem */
+.GridItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    /* margin-bottom: 5px; */
+}
+
+/* Button Stack */
+.ButtonStack{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 0vw 3vh 0vw;
+}
+
+/*  Filed Width */
+
+.FiledWidth{
+    width: 270px;
+}
+
+
+/*  Grid Container  */
+.GridContainer{
+    /* background-color: red; */
+    margin:0vh 0vw 4vh 0vw;
+}
+
+
+    .AddButton{
+     display: flex;
+     justify-content: flex-end;
+     margin-right: 4vw;      
+    }
+
+
+/*  Media Query */
+ .GridItemCenterFileUplaod{
+    text-align: center;
+     /* margin-left: 20vw;
+     margin-right:5vw */
+    }  
+     .GridContainerFileUpload{
+        /* margin: 2vh 0vw; */
+        padding-left: 0;
+        display: flex;
+        justify-content: left;
+        /* background-color: red; */
+    }
+
+    .UploadButtonTitle{
+      
+    color: black;
+    /* font-weight: bold; */
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    padding: 1vh 0vw 0vh 5vw;
+
+    }
+
+    .UploadButtonTitle1{
+      
+        color: #E58484;
+        /* font-weight: bold; */
+        display: flex;
+        /* justify-content: start; */
+        align-items: center;
+        padding: 1vh 0vw 0vh 5vw;
+    
+        }
+    
+
+
+    @media only screen and (max-width:1500px){
+   .UploadButtonTitle{ 
+    color: black;
+    /* font-weight: bold; */
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    padding: 1vh 0vw 0vh 5vw;
+
+    }
+    
+    }
+
+    @media only screen and (min-width:1500px){
+ .UploadButtonTitle{ 
+    color: black;
+    /* font-weight: bold; */
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    padding: 1vh 0vw 0vh 7vw;
+
+    }
+    }
+
+
+
+@Media only screen and (min-width:541px) and (max-width :599px){
+  .ButtonForMobileWidth{
+        /* background-color: green; */
+        width:30vw ;
+        font-size:auto;
+    }
+    
+    .UploadButtonTitle{ 
+    color: black;
+    /* font-weight: bold; */
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    padding: 1vh 0vw 0vh 5vw;
+
+    }
+}
+
+
+
+
+@Media only screen and (min-width:421px) and (max-width :540px){
+  .ButtonForMobileWidth{
+        /* background-color: green; */
+        width:40vw ;
+        font-size:auto;
+    }
+}
+
+
+
+@Media only screen and (max-width :420px){
+  .ButtonForMobileWidth{
+        /* background-color: yellowgreen; */
+        width:50vw ;
+        font-size:auto;
+    }
+      .UploadButtonTitle{
+      
+    color: black;
+    /* font-weight: bold; */
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    padding: 1vh 0vw 0vh 13vw;
+
+    }
+}
+
+
+@Media only screen and (max-width :480px ){
+     .UploadButtonTitle{
+      
+    color: black;
+    /* font-weight: bold; */
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    padding: 1vh 0vw 0vh 17vw;
+
+    }
+}
+

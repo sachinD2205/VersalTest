@@ -1,0 +1,18 @@
+.appIcon {
+    display: flex;
+    align-items: center;
+}
+
+.appIconCursor {
+    cursor: pointer;
+}
+
+.appTitleContainer{
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.title1 { font-size: 1rem !important;}
+.title2 {font-size: 0.875rem !important;}

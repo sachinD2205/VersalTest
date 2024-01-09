@@ -1,0 +1,219 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 2vh;
+    background-color: white;
+  }
+  
+  .small {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    border: 1px solid black;
+    padding: 2vw;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    display: flex;
+  }
+  
+  .logo img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
+  .logo1 img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
+  .logo1 {
+    flex: 0 0 auto; 
+  }
+  
+  .middle {
+    /* background-color: darkolivegreen; */
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    /* width: 25%; */
+    /* justify-content: center; */
+    /* justify-content: center; */
+  
+    /* align-items: center; */
+  }
+  
+  .table {
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  .report_table {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .report_table > thead > tr > th,
+  .report_table > thead > tr > td {
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .report_table > tbody > tr > td {
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .tfoot {
+    border: 1px solid black;
+  }
+  .heading {
+    background-color: lightblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center; 
+    margin-top: 5vh;
+    justify-content: space-evenly;
+  }
+  
+  .date {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    margin-top: 2vh;
+  }
+  
+  .add1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .enquiry {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 9vh; */
+  }
+  
+  .bottomContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 9vh;
+  }
+  
+  .signature {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .foot {
+    display: flex;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+
+  .date2 {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .one {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  
+  @media (max-width: 768px) {
+    .one {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .one > div {
+      margin: 5px;
+    }
+  
+    .one h1 {
+      margin-top: 1vh;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    
+    .query {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .add {
+      align-items: center;
+      padding-left: 0;
+      margin-top: 1vh;
+    }
+  
+    .add1 {
+      align-items: center;
+      padding-left: 0;
+      margin-top: 1vh;
+      margin-bottom: 1vh;
+    }
+  
+    .foot {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      padding-top: 1vh;
+      padding-bottom: 1vh;
+    }
+  }
+  
+  .labelValue {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .label {
+    width: 100%;
+  }
+  
+  .label h4 {
+    margin: 0;
+  }
+  
+  .value {
+    width: 70%; 
+  }
+  
+  .value h4 {
+    margin: 0;
+  }
+  
+  

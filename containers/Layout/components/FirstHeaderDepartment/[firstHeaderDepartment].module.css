@@ -1,0 +1,77 @@
+.drawerIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appIcon {
+  display: flex;
+  align-items: center;
+}
+
+.appNameContainer {
+  display: flex;
+  flex-direction: column !important;
+  /* align-items: center; */
+  justify-content: center;
+  cursor: pointer;
+}
+
+.title1 {
+  font-size: 1rem !important;
+}
+.title2 {
+  font-size: 0.875rem !important;
+}
+
+.menuIcon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuTitle {
+  font-weight: 600 !important;
+}
+
+.menuTitleContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.lang {
+  display: flex;
+  width: 40px;
+  justify-content: space-between;
+}
+
+.language:hover {
+  cursor: pointer;
+  margin-right: "10px ";
+}
+
+.chotuContainer {
+  margin-right: "10px ";
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.test {
+  height: 7vh;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.name > label:hover {
+  cursor: pointer;
+}

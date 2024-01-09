@@ -1,0 +1,29 @@
+
+
+.report tr td {
+    border: 1px solid black;
+    /* width: 50%; */
+    text-align: center;
+}
+
+.report tr th {
+    border: 1px solid black;
+    /* width: 50%; */
+}
+
+.head {
+    text-align: center;
+}
+
+/* .report > tr > th {
+    border: 1px solid black;
+  } */
+
+.report {
+    border: 1px solid black;
+    min-width: 100%;
+}
+
+.searchFilter {
+    text-align: center;
+}

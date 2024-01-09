@@ -1,0 +1,91 @@
+.goshwara tr td {
+  border: 1px solid black;
+  width: 50%;
+}
+
+.report {
+  border: 1px solid black;
+
+  width: 90%;
+}
+.receipt {
+  width: 40%;
+}
+
+.trrow {
+  display: flex;
+}
+.data {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.data tr th {
+  border: 1px solid black;
+}
+
+.dat1 .tdcard {
+  display: flex;
+  justify-content: center;
+}
+.tRcard {
+  display: flex;
+  justify-content: center;
+}
+.trrowf {
+  display: flex;
+  justify-content: flex-end;
+}
+/* .two {
+  width: 100;
+  height: 100;
+  display: flex;
+  justify-content: center;
+} */
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.trSeven {
+  display: flex;
+}
+.trSix {
+  display: flex;
+}
+.trFive {
+  display: flex;
+}
+.trFour {
+  display: flex;
+}
+.trThree {
+  display: flex;
+  justify-content: center;
+}
+
+.vel {
+  margin-left: 30vw;
+}
+.vibhag {
+  margin-left: 30.5vw;
+}
+.patta {
+  margin-left: 29vw;
+}
+.mobile {
+  margin-left: 26.5vw;
+}
+.pattaa {
+  margin-left: 26.5vw;
+}
+.date {
+  margin-left: 60.5vw;
+}
+
+.main1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}

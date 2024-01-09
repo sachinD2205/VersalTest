@@ -1,0 +1,144 @@
+.waterConnectionInCase {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: red;
+}
+
+.electricConnectionInCase {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: red;
+}
+
+.socaityWaterConnectionCheckBox {
+  /* color: red; */
+  padding-top: 4vh;
+}
+
+.Header {
+  width: 40%;
+  background: linear-gradient(90deg, #125597, #9ccdff);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: medium;
+  border-radius: 20px;
+  text-align: center;
+  padding: 2vh 2vw 2vh 2vw;
+  margin: 3vh 0vw 3vh 0vh;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* display: flex; */
+  /* margin-top: 20px; */
+  /* text-align: center; */
+  /* padding: 10px 15px; */
+}
+
+.Note {
+  font-size: 15px;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  /* padding: 2vh 2vw 2vh 2vw; */
+}
+
+/* DataGrid Div */
+.DataGridDiv {
+  margin: 2vh 4vw 2vh 4vw;
+}
+
+.GridContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 0vw;
+  padding-left: 5vw;
+}
+
+.GridContainer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 0vw 0vw 0vh;
+  padding-left: 5vw;
+  background-color: red;
+}
+
+.GridItemCenter {
+}
+
+.CheckBoxButtonSpan {
+  font-size: 15px;
+  font-weight: bolder;
+}
+.CheckBoxButtonSpan1 {
+  font-size: 15px;
+  /* font-weight: bolder; */
+}
+
+.addHolderDetailButton {
+  margin-top: 20px;
+  padding: 0% 5% 0% 3%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+}
+
+.DivOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 541px) and (max-width: 599px) {
+  .ButtonForMobileWidth {
+    /* background-color: green; */
+    width: 30vw;
+    font-size: auto;
+  }
+  .UploadButtonTitle {
+    color: black;
+    /* font-weight: bold; */
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    padding: 1vh 0vw 0vh 13vw;
+  }
+}
+
+/* Button Stack */
+.ButtonStack {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3vh 0vw 3vh 0vw;
+}
+
+@media only screen and (min-width: 421px) and (max-width: 540px) {
+  .ButtonForMobileWidth {
+    /* background-color: green; */
+    width: 40vw;
+    font-size: auto;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .ButtonForMobileWidth {
+    /* background-color: yellowgreen; */
+    width: 50vw;
+    font-size: auto;
+  }
+  .UploadButtonTitle {
+    color: black;
+    /* font-weight: bold; */
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    padding: 1vh 0vw 0vh 13vw;
+  }
+}

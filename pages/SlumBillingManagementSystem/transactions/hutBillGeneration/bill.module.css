@@ -1,0 +1,118 @@
+.main {
+  padding: 3%;
+}
+
+.wrapper {
+  padding: 5%;
+
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+    url("/logo.png") no-repeat center;
+  background-size: 60%;
+
+  font-weight: bold;
+  color: rgb(17, 57, 142);
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5%;
+  padding-bottom: 2vh;
+
+  border-bottom: 2px dashed rgb(17, 57, 142);
+}
+
+.headContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.subHeading {
+  font-size: 16px;
+}
+
+.dataText {
+  color: black;
+  font-weight: bold;
+}
+
+.billDetails1 {
+  width: 100%;
+  margin: 1vh 0vh;
+}
+
+.billDetails1 td {
+  padding: 1%;
+  width: 20%;
+  font-weight: bolder;
+}
+
+.highlightContent {
+  font-weight: bold;
+}
+
+.wrapper p {
+  /* margin-top: 4vh; */
+  color: red;
+}
+
+.billDetails2 {
+  width: 100%;
+}
+
+.billDetails2 td {
+  padding: 1%;
+  border: 2px dashed rgb(17, 57, 142);
+  text-align: center;
+}
+
+.signature {
+  width: 100%;
+  padding-top: 12%;
+  padding-bottom: 2%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.instructions {
+  border-top: 2px dashed rgb(17, 57, 142);
+  border-bottom: 2px dashed rgb(17, 57, 142);
+
+  padding: 1% 0%;
+}
+
+.instructions > span {
+  font-size: medium;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1%;
+}
+
+.footer {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer span {
+  margin: 1% 0%;
+}
+
+.buttons {
+  margin: 5vh;
+  display: flex;
+  justify-content: center;
+  column-gap: 20%;
+}

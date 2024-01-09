@@ -1,0 +1,45 @@
+.main {
+  padding: 25px;
+}
+
+.centerDiv {
+  display: grid;
+  place-items: center;
+}
+.radioDiv {
+  width: 75%;
+  margin-top: 3vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.title {
+  background: linear-gradient(to right, #125597, #9ccdff);
+
+  color: white;
+  margin-top: 40px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: medium;
+  border-radius: 10px;
+  width: 40%;
+}
+
+@media only screen and (max-width: 610px) {
+  .radioDiv {
+    width: 40%;
+  }
+
+  .title {
+    width: 70%;
+  }
+}
+
+/* @media only screen and (max-width: 940px) {
+  .radioDiv {
+    width: 40%;
+  }
+} */

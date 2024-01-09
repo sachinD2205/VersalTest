@@ -1,0 +1,24 @@
+.btns {
+  display: flex;
+  justify-content: center;
+}
+/* .btns > button {
+   margin: 1rem 2rem; 
+} */
+.NightDepCheckBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NightDepCheckBtns > button {
+  margin: 2.2vh 1vw;
+}
+.DriverThumb {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 1vh 0;
+}
+.rowBack{
+  background-color: orange;
+}

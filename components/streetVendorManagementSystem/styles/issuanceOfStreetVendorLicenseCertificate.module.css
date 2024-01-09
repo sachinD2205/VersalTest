@@ -1,0 +1,196 @@
+.data {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.goshwara tr td {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.report {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.trrow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.data {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.data tr th {
+  /* height: "900px"; */
+  /* width: "900px"; */
+  border: 1px solid black;
+}
+
+.dat1 .tdcard {
+  display: flex;
+  justify-content: center;
+}
+
+.tRcard {
+  display: flex;
+  justify-content: center;
+}
+
+.trrowf {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.one {
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.two {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.three {
+  border: 1px solid black;
+  background-color: darkgrey;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.main {
+  /* background-color: red; */
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 40px;
+}
+
+.demo {
+  font-size: larger;
+}
+
+.data1 {
+  font-size: 15px;
+}
+
+.mmain {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.mone {
+  margin-top: 20px;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: left;
+}
+
+.mtwo {
+  margin-top: 20px;
+  width: 500px;
+  height: 150px;
+  display: flex;
+  justify-content: left;
+}
+
+.lone {
+  margin-top: 20px;
+  width: 700px;
+  height: 150px;
+  display: flex;
+  justify-content: left;
+}
+
+.qrcode {
+  border: 1px solid black;
+  background-color: darkgrey;
+  width: 125px;
+  height: 125px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.borderBlack {
+  border: 2px solid rgb(7, 7, 7);
+}
+
+/* .extraWidth {
+  width: 524px;
+  border: 1px solid rgb(182, 235, 6);
+} */
+
+/* .extraWidth1 {
+  width: 1148px;
+  border: 1px solid rgb(182, 235, 6);
+} */
+
+.extraWidth2 {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p1 {
+  /* color: navy; */
+  text-indent: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* padding-bottom: 5px; */
+  padding-top: 5px;
+}
+
+.center {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.marginLR {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.rightPosition {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pcmc {
+  margin-top: 10vh;
+  margin-left: 30vh;
+}
+
+.pcmc1 {
+  border: 2px solid black;
+  background: #e8e81f;
+}
+
+.dateCertificateNo {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.centerCertificate {
+  display: flex;
+  justify-content: center;
+}

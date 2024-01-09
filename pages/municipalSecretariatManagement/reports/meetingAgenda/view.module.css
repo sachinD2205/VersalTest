@@ -1,0 +1,144 @@
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 5vh;
+}
+.buttons {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main {
+  padding: 3%;
+}
+
+.fancyButton {
+  background-color: red;
+}
+
+/* +-+-+-+-+-+-+-+-+-+-+-+-+-+ */
+/* +-+-+-+-+-+-+-+-+-+-+-+-+-+ */
+/*                             */
+/*           Report            */
+/*                             */
+/* +-+-+-+-+-+-+-+-+-+-+-+-+-+ */
+/* +-+-+-+-+-+-+-+-+-+-+-+-+-+ */
+
+.reportWrapper {
+  background-color: white;
+  /* padding: 8%; */
+  padding: 20px;
+
+  /* display: flex;
+  flex-direction: column; */
+  row-gap: 40px;
+
+  font-size: medium;
+}
+
+.heading {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: large;
+}
+
+.heading1 {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: large;
+}
+
+.dateAndTime {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  text-indent: 10vw;
+  margin: 0;
+}
+
+.signatureWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.signature {
+  margin-top: 40px;
+  padding-right: 10%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.endDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tip {
+  display: flex;
+  flex-direction: row;
+  padding-left: 4%;
+  margin-top: 20px;
+}
+
+.tipLeft {
+  width: 40px;
+}
+
+/* @media print {
+  .signatureWrapper {
+    page-break-before: always;
+  }
+} */
+
+.table_container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  /* width: auto; */
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  width: 200px;
+}
+
+.table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  /* text-align: center; */
+}
+
+@media screen and (orientation: landscape) {
+  .table-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .table {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+  }
+}

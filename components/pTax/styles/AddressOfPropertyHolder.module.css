@@ -1,0 +1,284 @@
+.DivOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header {
+  width: 40%;
+  background: linear-gradient(90deg, #125597, #9ccdff);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: medium;
+  border-radius: 20px;
+  text-align: center;
+  padding: 2vh 2vw 2vh 2vw;
+  margin: 3vh 0vw 3vh 0vh;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* display: flex; */
+  /* margin-top: 20px; */
+  /* text-align: center; */
+  /* padding: 10px 15px; */
+}
+
+.PrpertyAddressSubHeader {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bigText {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  resize: none;
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  border: 1.5px solid grey !important;
+}
+
+.bigTextError1 {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  resize: none;
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  border: 1.5px solid grey !important;
+}
+
+.errormessage {
+  color: red;
+}
+
+.bigTextError2 {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  resize: none;
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  border: 1.5px solid grey !important;
+}
+
+.row1 {
+  padding: 0vh 0vw 5vh 0vw;
+}
+
+.row {
+  /* margin-top: 20px; */
+  padding: 5vh 5vw;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  align-items: center;
+  /* background: red; */
+}
+
+.postalAddressSubHeader {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 2vh 0vw 2vh 0vw;
+}
+
+/* Main header */
+.MainHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1vh 1vw;
+  margin: 2vh 10vw;
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+  border-radius: 5vh;
+  background-color: #0084ff;
+  font-weight: bold;
+}
+
+.GridItemCenter {
+}
+
+.GridContainer {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 0vw;
+  padding-left: 5vw;
+}
+.GridContainer1 {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 0vw;
+  padding-left: 10vw;
+}
+
+.GridItemSiteVisit {
+  /* background-color: #0084ff; */
+  margin-bottom: 2vh;
+}
+
+.GridContainerFileUpload {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 0vw;
+  padding-left: 10vw;
+  padding-right: 5vw;
+}
+
+.ButtonMainDiv {
+  background-color: red;
+  border: 2px solid red;
+}
+
+.viewMapLocationButton {
+  margin-top: 3vh;
+  width: 230px;
+  font-size: 12px;
+}
+
+.addressCheckBoxButton {
+  /* background-color: red; */
+  /* width: 230px; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.addressCheckBoxButtonSpan {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.BankDetailsDiv {
+  margin-top: 7vh;
+  /* background-color: red; */
+}
+
+.PeriodOfResidenceInPCMCLabel {
+  width: 230px;
+  display: flex;
+  /* justify-content: center; */
+  color: black;
+  font-size: 15px;
+  /* background-color: red; */
+}
+
+.PeriodOfResidenceInPCMCContent {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 230px;
+}
+
+.PeriodOfResidenceInMaharashtraLabel {
+  width: 230px;
+  display: flex;
+  /* justify-content: center; */
+  color: black;
+  font-size: 15px;
+  /* background-color: red; */
+}
+
+.PeriodOfResidenceInMaharashtraContent {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 230px;
+}
+
+.DoucmentUploadIntractions {
+  /* background-color: red; */
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  .GridItemCenter {
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: center;
+  }
+
+  .GridContainer {
+    margin: 2vh 0vw;
+    padding-left: 0;
+  }
+
+  .GridContainer1 {
+    margin: 2vh 0vw;
+    padding-left: 0;
+  }
+
+  .addressCheckBoxButton {
+    /* background-color: red; */
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .addressCheckBoxButtonSpan {
+    font-size: 12px;
+    font-weight: bolder;
+  }
+
+  .GridItemCenterFileUplaod {
+    margin-left: 20vw;
+    margin-right: 5vw;
+  }
+  .GridContainerFileUpload {
+    margin: 2vh 0vw;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+  }
+
+  .GridItemSiteVisit {
+    margin-bottom: 2vh;
+    padding-left: 20vw;
+    /* margin: 2vh 0vw; */
+    /* padding-left: 0; */
+    /* display: flex; */
+    justify-content: center;
+    /* background-color: red; */
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .GridItemSiteVisit {
+    margin-bottom: 2vh;
+    padding-left: 10vw;
+    /* margin: 2vh 0vw; */
+    /* padding-left: 0; */
+    /* display: flex; */
+    justify-content: center;
+    /* background-color: red; */
+  }
+}

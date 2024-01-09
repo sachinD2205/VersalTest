@@ -1,0 +1,111 @@
+.goshwara tr td {
+  border: 1px solid black;
+  /* width: 100%; */
+  border: 2px solid black;
+}
+
+.report {
+  border: 1px solid black;
+  width: 90%;
+  margin-left: 35px;
+  /* background-color: aqua; */
+}
+.trrow {
+  display: flex;
+  justify-content: flex-end;
+}
+.data {
+  border: 1px solid black;
+  width: 90%;
+  margin-left: 35px;
+}
+
+.data tr th {
+  border: 1px solid black;
+}
+
+.dat1 .tdcard {
+  display: flex;
+  justify-content: center;
+}
+.tRcard {
+  display: flex;
+  justify-content: center;
+}
+.trrowf {
+  display: flex;
+  justify-content: flex-end;
+}
+.one {
+  border: 1px solid black;
+  background-color: darkgrey;
+  width: 130px;
+  height: 140px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.two {
+  margin-top: 20px;
+  width: 180px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.three {
+  border: 1px solid black;
+  background-color: darkgrey;
+  width: 130px;
+  height: 140px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.demo {
+  font-size: larger;
+}
+.data1 {
+  font-size: 15px;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+.circle {
+  border: 1px solid black;
+  position: relative;
+  /* background-color: #09f; */
+  /* margin: 20px auto; */
+  width: 20vh;
+  height: 10vh;
+  border-radius: 50%;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #030101;
+}
+.kahipn {
+  display: flex;
+  border: 1px solid black;
+  width: 90%;
+  margin-left: 35px;
+  justify-content: space-between;
+}
+
+.logo1 {
+  display: flex;
+  flex-direction: row;
+  /* width: 20%; */
+  margin: 1vw;
+  margin-bottom: 1vw;
+  padding-right: 5vh;
+  justify-content: flex-end;
+}

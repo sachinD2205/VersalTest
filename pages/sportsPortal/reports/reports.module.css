@@ -1,0 +1,22 @@
+.main {
+  padding: 3%;
+}
+
+.rowWrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 50px;
+  row-gap: 20px;
+}
+
+.buttonGrp {
+  display: flex;
+  column-gap: 20px;
+}
+
+.centerDiv {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,143 @@
+.main {
+    /* padding: 5px; */
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+  }
+  .fpaper {
+    padding: 5px;
+    display: flex;
+  }
+  .spaper {
+    padding: 5px;
+  }
+  
+  .btn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    justify-content: center;
+  }
+  .small {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .addbtn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2vh;
+    margin-right: 40px;
+  }
+  .row {
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .second {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .paperCenter {
+    display: flex;
+    justify-content: center;
+  }
+  .tableButton {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Button1 {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+.details {
+    background: linear-gradient(
+      90deg,
+      rgb(7 110 230 / 91%) 2%,
+      rgb(111 242 249) 100%
+    );
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 100px;
+    height: 50px;
+    margin-left: 25px;
+  }
+  
+  
+  .h1Tag {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+  }
+  
+  
+  .adbtn{
+    background: linear-gradient(
+      90deg,
+      rgb(7 110 230 / 91%) 2%,
+      rgb(111 242 249) 100%
+    );
+  
+  }
+  
+  
+  .feildres {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 2%;
+    }
+  
+    /* .click {
+  
+      cursor: pointer;
+  } */
+  
+  
+  /* 
+  .click:hover {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px #3455DB;
+    background-color: #E5E7E9 ;
+  } */
+  
+  .click {
+    background-color: #ECF0F1;
+    color: "#5499C7";
+      cursor: pointer;
+    border: "1px solid #5499C7";
+   text-transform:none;
+    }
+    
+  
+  .click:hover {
+    background-color: #5499C7;
+    color: white;
+    border: "1px solid #5499C7";
+    /* transform: scale(1); */
+    /* transform: scale(1.1); */
+  
+  }
+  
+  .delete:hover {
+  color: red;
+  background-color: #ECF0F1;
+  border-radius: 100%;
+  padding: 20;
+    transform: scale(1.3);
+  
+  }
+  
+  /* 
+  .click:active {
+    background-color: green;
+  } */
+  
+  

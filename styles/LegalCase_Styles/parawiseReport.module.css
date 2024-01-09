@@ -1,0 +1,111 @@
+.main {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+}
+.fpaper {
+  padding: 5px;
+  display: flex;
+}
+.spaper {
+  padding: 5px;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+  justify-content: center;
+}
+.btn1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  justify-content: center;
+}
+.small {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.addbtn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh;
+  margin-right: 40px;
+}
+.row {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.row1 {
+  display: flex;
+  margin-top: 4vh;
+  justify-content: space-around;
+}
+/* .action {
+  display: flex;
+  justify-content: center;
+} */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+/* .container .col1 {
+  flex-basis: 10%;
+} */
+.headRow {
+  margin-top: 4vh;
+  margin-left: 600;
+}
+
+.two {
+  width: 250px;
+}
+.attachFile {
+  width: 240px;
+}
+.second {
+  display: flex;
+  justify-content: space-evenly;
+}
+.paperCenter {
+  display: flex;
+  justify-content: center;
+}
+.tableButton {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Button1 {
+  display: flex;
+  margin-bottom: 5px;
+}
+.firstField {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.theme1 {
+  /* position: -webkit-sticky; Safari */
+  position: fixed;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  border: 2px solid black;
+  /*background-color: gainsboro;
+  /* background-color: #89cff0; */
+}
+.parawisePaper {
+  align-self: center;
+}
+/* .theme2 { */
+/* overflow: hidden; */
+/* mix-blend-mode: overlay; */
+/* } */

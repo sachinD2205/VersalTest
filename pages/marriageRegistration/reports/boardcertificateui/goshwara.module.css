@@ -1,0 +1,99 @@
+.goshwara tr td {
+  border: 1px solid black;
+  width: 100vh;
+}
+.report {
+  border: 1px solid black;
+  /* width: 140vh; */
+
+  /* height: 80vh; */
+}
+.trrow {
+  display: flex;
+  justify-content: flex-end;
+}
+/* .data {
+  border: 1px solid black;
+  width: 100%;
+} */
+
+.data tr th {
+  border: 1px solid black;
+}
+
+.dat1 .tdcard {
+  display: flex;
+  justify-content: center;
+}
+.tRcard {
+  display: flex;
+  justify-content: center;
+}
+.trrowf {
+  display: flex;
+  justify-content: flex-end;
+}
+.tickmark {
+  margin-left: 15vh;
+}
+.tickmark1 {
+  margin-left: 10vh;
+}
+
+.trrowf1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7vh;
+}
+.one {
+  /* border: 1px solid rgb(3, 46, 236); */
+  /* background-color: darkgrey; */
+  width: 80px;
+  height: 80px;
+  margin-left: 4px;
+  margin-top: 4vh;
+}
+.two {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid rgb(9, 226, 38); */
+}
+.three {
+  /* border: 1px solid rgb(250, 6, 6); */
+  background-color: darkgrey;
+  width: 130px;
+  height: 140px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.main {
+  /* border: 1px solid rgb(30, 6, 250); */
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.demo {
+  font-size: larger;
+}
+.data1 {
+  font-size: 15px;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+.a {
+  font-size: 12px;
+}
+@media print {
+  .tickmark {
+    margin-left: 10vh;
+  }
+  .tickmark1 {
+    margin-left: 5vh;
+  }
+}

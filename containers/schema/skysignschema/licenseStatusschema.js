@@ -1,0 +1,14 @@
+import * as yup from "yup";
+
+// schema - validation
+let Schema = yup.object().shape({
+  licenseStatusPrefix: yup
+    .string()
+    .required("License Status Prefix is Required !!!"),
+  fromDate: yup.string().nullable().required("From Date is Required !!!"),
+  toDate: yup.string().nullable().required("todate is Required !!!"),
+  licenseStatus: yup.string().required("License Status is Required !!!"),
+  //remark:yup.string().required("remark is Required !!!")
+});
+
+export default Schema;

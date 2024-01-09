@@ -1,0 +1,473 @@
+.Paper {
+  padding: 5vh 5vw;
+}
+
+.Stack {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10vh 2vw 4vh 0vw;
+}
+
+.Table {
+  width: 100%;
+  border-collapse: separate;
+  padding: 5vh 5vw;
+  background-color: white;
+}
+
+.Prati {
+  font-weight: bold;
+  padding: 2vh 5vw 0vh 0vw;
+  font-size: 15px;
+}
+
+.InnerTable2Td {
+  border: 1px solid black;
+  width: 8vw;
+  height: 3vh;
+  /* text-align: center; */
+  padding-left: 0.5vw;
+}
+
+.innerTable2 {
+  padding-top: 1vh;
+}
+
+.Shree {
+  font-weight: bold;
+  padding: 0.5vh 5vw 0vh 0vw;
+  font-size: 15px;
+}
+
+.Pata {
+  font-weight: bold;
+  padding: 0.5vh 5vw 1vh 0vw;
+  font-size: 15px;
+}
+
+.Subject {
+  font-weight: bold;
+  text-align: center;
+  padding: 1.5vh 0vw 1vh 0vw;
+  font-size: 18px;
+}
+
+.Paragraph1 {
+  font-size: 15px;
+}
+
+.Paragraph11 {
+  font-size: 15px;
+}
+
+.Paragraph12 {
+  font-size: 15px;
+  padding: 2vh 2vw 2vh 2vw;
+}
+
+.Paragraph111 {
+  font-size: 15px;
+  padding: 2vh 0vw 0vh 0vw;
+}
+
+.Paragraph1112 {
+  font-size: 15px;
+  padding: 0vh 0vw 2vh 0vw;
+}
+
+.Li {
+  font-size: 15px;
+}
+
+.Paragraph2 {
+  padding: 0vh 0vw 15vh 0vw;
+  font-size: 15px;
+}
+
+.SahyakMandalAdhikari {
+  text-align: right;
+  font-weight: bold;
+  padding: 5vh 3.5vw 0vh 0vw;
+  font-size: 15px;
+}
+.VibhagiyKarayalay {
+  text-align: right;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0vh 4vw 0vh 0vw;
+}
+.Pimpari {
+  text-align: right;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.Dinak {
+  padding: 1.5vh 0vw 0vh 0vw;
+  font-weight: bold;
+  font-size: 15px;
+  width: 30%;
+}
+
+.kavi {
+  padding: 1.5vh 0vw 0vh 0vw;
+  font-weight: bold;
+  font-size: 15px;
+  width: 40%;
+}
+
+.Kramank {
+  padding: 1vh 0vw 0vh 0vw;
+  font-weight: bold;
+  font-size: 15px;
+  width: 30%;
+}
+
+.InnerTableTrSpace {
+  /* background-color: red; */
+}
+
+.InnerTableTrSpace1 {
+  /* padding: 0vh; */
+  padding-left: 1vw;
+  /* text-align: center; */
+  /* background-color: yellowgreen; */
+}
+
+.InnerTableTrSpace11 {
+  /* padding: 0vh; */
+  padding-left: 1vw;
+  /* text-align: center; */
+  /* background-color: yellowgreen; */
+}
+
+.hrLineHeadingBelow {
+  border-bottom: 2px solid black;
+  padding: 2vh 0vw 0vh 0vw;
+}
+
+.hrLineHeadingBelow1 {
+  border-bottom: 2px dashed black;
+  padding: 2vh 0vw 0vh 0vw;
+}
+
+.HeaderDIV2 {
+  width: 75%;
+}
+
+.Header11 {
+  display: flex;
+  /* background-color: pink; */
+  padding: 0vh 0vw 0vh 5vw;
+}
+
+.HeaderDIV3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Bandakaam {
+  /* display: flex; */
+  /* justify-content: center; */
+  font-size: 15px;
+  font-weight: bold;
+  /* background-color: blue; */
+  text-align: center;
+  padding-bottom: 2vh;
+}
+
+.MHeader1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0.5vh 0vw 0vh 0vw;
+}
+
+.MHeader2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 1vh 0vw 0vh 0vw;
+}
+
+.MHeader3 {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 1vh 0vw 0vh 5vw;
+  /* background: red; */
+}
+
+.PcmcLogo {
+  width: 6vw;
+  height: 11vh;
+}
+
+.FlorageNoticeHeader {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 1.5vh;
+}
+
+.Header {
+  /* background-color: yellow; */
+}
+
+.InnerTable {
+  border: 2px solid black;
+  width: 100%;
+}
+
+.InnerTableTr {
+  border: 2px solid black;
+  width: 100%;
+  /* height: 70%; */
+}
+
+.InnerTableTrr {
+  /* border: 2px solid black; */
+  width: 100%;
+  /* padding-top: 2vh; */
+  /* height: 70%; */
+}
+
+.hrBelowSpace {
+  padding-top: 3vh;
+}
+
+.InnerTableTh {
+  border: 2px solid black;
+}
+
+.InnerTableTrContent {
+  height: 4vh;
+}
+
+.InnerTableThContent {
+  height: 7vh;
+}
+
+.InnerTableThh {
+  width: 20%;
+  font-size: 15px;
+  font-weight: bold;
+  /* background-color: yellow; */
+  padding: 1vh 1vw 1vh 1vw;
+}
+
+/* Only for Print */
+
+@media only print {
+  .InnerTableThContent {
+    height: 5vh;
+  }
+
+  .InnerTableThh {
+    width: 20%;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+  }
+
+  .InnerTableTrContent {
+    height: 2vh;
+  }
+
+  .InnerTable {
+    border: 2px solid black;
+    width: 100%;
+  }
+
+  .InnerTableTh {
+    border: 2px solid black;
+  }
+
+  .InnerTableTr {
+    border: 2px solid black;
+  }
+  .InnerTableTrr {
+    /* padding-top: 1vh; */
+    /* border: 2px solid black; */
+  }
+
+  .hrBelowSpace {
+    padding-top: 1vh;
+  }
+
+  .FlorageNoticeHeader {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .PcmcLogo {
+    width: 7vw;
+    height: 8vh;
+    padding: 2vh 0vw 0vh 0vw;
+  }
+
+  .HeaderDIV2 {
+    width: 90%;
+  }
+
+  .Table {
+    width: 100%;
+    border-collapse: separate;
+    padding: 2vh 5vw 2vh 5vw;
+  }
+
+  .Prati {
+    font-weight: bold;
+    padding: 0.5vh 5vw 0vh 0vw;
+    font-size: 13px;
+  }
+  .InnerTable2Td {
+    border: 1px solid black;
+    width: 12vw;
+    height: 2vh;
+    /* text-align: center; */
+    padding-left: 0.5vw;
+    /* border: 2px solid red; */
+  }
+
+  .innerTable2 {
+    padding-top: 1vh;
+  }
+
+  .Shree {
+    font-weight: bold;
+    padding: 0.5vh 5vw 0vh 0vw;
+    font-size: 13px;
+  }
+
+  .Pata {
+    font-weight: bold;
+    padding: 0.5vh 5vw 1vh 0vw;
+    font-size: 13px;
+  }
+
+  .Subject {
+    font-weight: bold;
+    text-align: center;
+    padding: 1.5vh 0vw 1vh 0vw;
+    font-size: 15px;
+  }
+
+  .Paragraph1 {
+    font-size: 13px;
+  }
+  .Paragraph11 {
+    font-size: 13px;
+  }
+
+  .Paragraph12 {
+    font-size: 13px;
+    padding: 0vh 2vw 0vh 2vw;
+  }
+  .Paragraph111 {
+    font-size: 13px;
+    padding: 0vh 0vw 0vh 0vw;
+  }
+  .Paragraph1112 {
+    font-size: 13px;
+    padding: 0vh 0vw 0vh 0vw;
+  }
+
+  .Li {
+    font-size: 13px;
+  }
+
+  .Paragraph2 {
+    padding: 0vh 0vw 15vh 0vw;
+    font-size: 13px;
+  }
+
+  .SahyakMandalAdhikari {
+    text-align: right;
+    font-weight: bold;
+    padding: 4vh 4vw 0vh 0vw;
+    font-size: 13px;
+  }
+  .VibhagiyKarayalay {
+    text-align: right;
+    font-weight: bold;
+    font-size: 13px;
+    padding-right: 5vw;
+    /* border: 1px solid red; */
+  }
+  .Pimpari {
+    text-align: right;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .Dinak {
+    padding: 1vh 0vw 0vh 0vw;
+    font-weight: bold;
+    font-size: 13px;
+    width: 30%;
+  }
+
+  .kavi {
+    padding: 1vh 0vw 0vh 0vw;
+    font-weight: bold;
+    font-size: 13px;
+    width: 40%;
+  }
+
+  .Kramank {
+    padding: 0.5vh 0vw 0vh 0vw;
+    font-weight: bold;
+    font-size: 13px;
+    width: 30%;
+  }
+
+  .hrLineHeadingBelow {
+    border-bottom: 2px solid black;
+    padding: 0.5vh 0vw 0vh 0vw;
+  }
+
+  .hrLineHeadingBelow1 {
+    border-bottom: 2px dashed black;
+    padding: 2vh 0vw 1vh 0vw;
+  }
+
+  .Header11 {
+    display: flex;
+    /* background-color: pink; */
+    padding: 0vh 0vw 0vh 5vw;
+  }
+
+  .HeaderDIV3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Bandakaam {
+    /* display: flex; */
+    /* justify-content: center; */
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1vh;
+  }
+
+  .MHeader1 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 2.5vh 0vw 0vh 0vw;
+  }
+
+  .MHeader2 {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0vh 0vw 0vh 0vw;
+  }
+
+  .MHeader3 {
+    font-size: 13px;
+    /* background: red; */
+    font-weight: bold;
+    padding: 0.5vh 0vw 0vh 0vw;
+  }
+}

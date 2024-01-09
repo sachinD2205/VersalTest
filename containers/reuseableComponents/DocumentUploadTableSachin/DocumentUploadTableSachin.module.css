@@ -1,0 +1,29 @@
+
+.UploadButtonPoisition{
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-between;
+  padding: 2vh 0.5vw;
+  
+}
+
+
+.UploadedDocumentTabel{
+  /* background-color: red; */
+  width: 100%;
+}
+.doctitle{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+@media screen and (max-width:600px){
+  .UploadButtonPoisition{
+    display: block;
+  }
+  .doctitle{
+    width: 90%;
+    margin: auto;
+  }
+}

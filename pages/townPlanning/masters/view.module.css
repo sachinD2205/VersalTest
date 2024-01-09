@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.buttons {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .main {
+  padding: 3% 3%;
+} */
+
+.fancyButton {
+  background-color: red;
+}
+
+.addbtn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh;
+  margin-right: 40px;
+}

@@ -1,0 +1,41 @@
+.noc {
+  border: 2px solid black;
+  padding: 2%;
+  width: 70%;
+  margin-left: 15%;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.nocMain {
+  display: flex;
+  /* background-color: pink; */
+  /* justify-content: space-around; */
+  height: 200px;
+}
+.logoOne {
+  border: 2 solid black;
+  /* background-color: red; */
+  width: 200px;
+  padding: 2%;
+}
+.logoTwo {
+  border: 2 solid black;
+  /* background-color: black; */
+  width: 200px;
+  padding: 2%;
+}
+.mainTitle {
+  /* background-color: blueviolet; */
+  margin-top: 5%;
+  margin-left: 2%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+/* table,
+th,
+td {
+  border: 2px solid black;
+} */

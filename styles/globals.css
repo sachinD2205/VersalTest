@@ -1,0 +1,83 @@
+@import '~antd/dist/antd.css';
+.ant-menu {
+  background: white;
+  color: white;
+}
+
+.ant-menu-horizontal {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 0;
+}
+.ant-input {
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+
+.ant-input-status-error:not(.ant-input-disabled):not(
+    .ant-input-borderless
+  ).ant-input:focus,
+.ant-input-status-error:not(.ant-input-disabled):not(
+    .ant-input-borderless
+  ).ant-input-focused {
+  border-color: #ff7875;
+
+  border-right-width: 0px;
+  outline: 0;
+}
+
+html,
+body {
+  height: auto;
+  margin: 0;
+  background-color: whitesmoke;
+}
+.wrapper {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+}
+/* Form */
+.formLayout {
+  margin-top: -7vh;
+  display: flex;
+  flex-direction: column;
+}
+.layoutUpper-footer {
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 5vh;
+  text-decoration: solid;
+  color: 0084ff;
+  font-size: small;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.layout-footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #0084ff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 5vh;
+  text-decoration: solid;
+  color: white;
+  font-size: small;
+}
+.layout-content {
+  flex: 1;
+  overflow: hidden;
+  height: 70.7vh;
+}
+.site-page-header {
+  border: 1px solid rgb(235, 237, 240);
+}
+@media print {
+  html,
+  body {
+    background-color: white;
+  }
+}

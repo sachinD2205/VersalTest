@@ -1,0 +1,22 @@
+
+.MainDiv{
+
+}
+
+.Paper{
+    padding: 5vh 5vw 5vh 0vw;
+    /* background-color: red; */
+}
+
+
+.MainHeader{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.Components{
+    
+}

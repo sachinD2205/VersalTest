@@ -1,0 +1,222 @@
+.view {
+  color: #3390ff;
+}
+
+.delete {
+  color: red;
+  padding: 20;
+}
+
+.delete:hover {
+  color: red;
+  background-color: #ecf0f1;
+  border-radius: 100%;
+  padding: 20;
+  transform: scale(1.1);
+}
+
+.button:hover {
+  color: white;
+  background-color: #4360e4;
+}
+
+.edit {
+  color: #4360e4;
+  padding: 20;
+}
+
+.edit:hover {
+  color: #4360e4;
+  background-color: #ecf0f1;
+  border-radius: 100%;
+  padding: 20;
+  transform: scale(1.1);
+}
+
+.masterEditBtn {
+  color: #2e86c1;
+}
+
+.masterEditBtn:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+
+.masterDeleteBtn {
+  color: red;
+}
+
+.masterDeleteBtn:hover {
+  color: red;
+  transform: scale(1.1);
+}
+/* for button */
+.feildres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1%;
+}
+
+.error {
+  color: red;
+}
+
+/* style for add button */
+.adbtn {
+  border-radius: 100%;
+  margin-left: 12px;
+  border: 2px solid #3498db;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  background: linear-gradient(
+    90deg,
+    rgb(7 110 230 / 91%) 2%,
+    rgb(111 242 249) 100%
+  );
+}
+
+/* Sub Table For Provisional Transaction */
+.subtableHead {
+  background: linear-gradient(
+    90deg,
+    rgba(79, 148, 227, 0.91) 2%,
+    rgb(152, 182, 195) 70%
+  );
+  /* border-radius: 100px; */
+  margin-bottom: 1%;
+  width: 100%;
+}
+
+.subh1Tag {
+  color: #ecf0f1;
+  /* text-align: "center"; */
+  display: "flex";
+  /* justify-content: center; */
+  align-items: center;
+  /* flex-wrap: wrap; */
+  margin-left: 20px;
+  font-size: 3.2vmin;
+  margin-top: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* for sub heading */
+.subadbtn {
+  /* border-radius: 100%; */
+  margin-left: 12px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(112, 157, 209, 0.91) 2%,
+    rgb(123, 163, 165) 100%
+  );
+}
+
+/* style for table heading */
+.tableHead {
+  background: linear-gradient(
+    90deg,
+    rgb(7 110 230 / 91%) 2%,
+    rgb(73, 181, 235) 70%
+  );
+  border-radius: 100px;
+  margin-bottom: 1%;
+  width: 100%;
+  font-weight: 480;
+}
+
+/* table heading text style */
+.h1Tag {
+  color: #ecf0f1;
+  text-align: "center";
+  display: "flex";
+  justify-content: center;
+  align-items: center;
+  /* color: #ecf0f1; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  font-size: 4.8vmin;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* for feild heading */
+.feildHead {
+  color: #ecf0f1;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 18px;
+  font-size: 3.2vmin;
+}
+
+.details {
+  background: linear-gradient(
+    90deg,
+    rgb(7 110 230 / 91%) 2%,
+    rgb(111 242 249) 100%
+  );
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border-radius: 100px;
+}
+
+.mstheading {
+  background: linear-gradient(
+    90deg,
+    rgb(7 110 230 / 91%) 2%,
+    rgb(111 242 249) 100%
+  );
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 100px;
+}
+
+.tableSub {
+  margin-top: 5%;
+  margin-bottom: "1%";
+}
+
+/* For Action,site & document Verification Button Button */
+.click {
+  background-color: #ecf0f1;
+  color: "#5499C7";
+  cursor: pointer;
+  border: "1px solid #5499C7";
+  text-transform: none;
+}
+
+.click:hover {
+  background-color: #5499c7;
+  color: white;
+  border: "1px solid #5499C7";
+  /* transform: scale(1); */
+  /* transform: scale(1.1); */
+}
+
+.divBorder {
+  border: 1px solid;
+  width: 70%;
+  /* height: 5rem; */
+}
+
+.hr {
+  height: 2px;
+}
+.shiftNameField {
+  padding-left: 94px;
+}
+.fireStationField {
+  padding-left: 64px;
+}
+.vehicleField {
+  padding-left: 58px;
+}

@@ -1,0 +1,99 @@
+.main {
+  padding: 3%;
+}
+
+.paymentWrapper {
+  padding: 2%;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.centerHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centerHeader h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tableWrap {
+  margin: 5px 0px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.tableRow {
+  width: 100%;
+  font-family: sans-serif;
+  border: 1px solid black;
+}
+
+.tableData1 {
+  width: 15%;
+  padding-left: 10px;
+  border: 1px solid black;
+  font-weight: bolder;
+  background-color: #DEE3DE
+}
+
+.tableData2 {
+  width: 15%;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+
+.tableData3 {
+  width: 15%;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+
+.buttons {
+  margin-top: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.divider {
+  display: none;
+  border: 1px dashed black;
+  margin: 1% 0%;
+}
+
+/* .customerCopy {
+  display: none;
+} */
+
+@media print {
+  .divider {
+    display: block;
+  }
+
+  .customerCopy {
+    display: block;
+  }
+  .tableData1 {
+    font-size: 9px;
+  }
+  .tableData2 {
+    font-size: 9px;
+  }
+  .tableData3 {
+    font-size: 9px;
+  }
+}

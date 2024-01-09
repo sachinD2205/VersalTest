@@ -1,0 +1,18 @@
+import * as yup from "yup";
+import FormattedLabel from "../../reuseableComponents/FormattedLabel";
+
+let Schema = yup.object().shape({
+  rotationGroupName: yup
+    .string()
+    .matches(
+      /^[A-Za-z0-9@-\s]+$/,
+      "Must be only in english / फक्त इंग्लिश मध्ये "
+    )
+    .required("Enter rotation Group Name is Required "),
+  rotationGroupNameMr: yup
+    .string()
+    .matches(/^[\u0900-\u097F]+/, "Must be only in marathi / फक्त मराठी मध्ये")
+    .required("Enter rotation Group Name marathi is Required "),
+});
+
+export default Schema;

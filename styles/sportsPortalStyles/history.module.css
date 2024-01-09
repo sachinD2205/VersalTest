@@ -1,0 +1,513 @@
+.main {
+  /* padding: 5px; */
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+.fpaper {
+  padding: 5px;
+  display: flex;
+}
+.spaper {
+  padding: 5px;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+  /* justify-content: center; */
+  /* justify-content: space-evenly; */
+  justify-content: flex-end;
+}
+.small {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.addbtn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh;
+  margin-right: 40px;
+}
+
+.addbtn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh;
+  margin-right: 40px;
+}
+
+.titleM {
+  display: flex;
+  margin: 1vh;
+  margin-left: 20px;
+  /* justify-content: ; */
+}
+.row {
+  margin-top: 1vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row3 {
+  margin-top: 1vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.second {
+  display: flex;
+  justify-content: space-evenly;
+}
+.paperCenter {
+  display: flex;
+  justify-content: center;
+}
+.tableButton {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Button1 {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.TableHeading {
+  display: flex;
+  justify-content: center;
+}
+
+.Steeper {
+  display: flex;
+  color: red;
+}
+
+.Adress {
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+.details {
+  background: linear-gradient(90deg, rgb(7 110 230 / 91%) 2%, rgb(210 242 249) 100%);
+
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 30px;
+  /* margin-left: 25px; */
+  height: 6vh;
+  border-radius: 100px;
+}
+
+.h1Tag {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25px;
+}
+
+.aptable {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.radiobuttonAprv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.apprve {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.rowSchre {
+  margin-top: 1vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.slot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.detailsApot {
+  background: linear-gradient(90deg, rgb(7 110 230 / 91%) 2%, rgb(210 242 249) 100%);
+
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 30px;
+  /* margin-left: 25px; */
+  height: 8vh;
+  border-radius: 100px;
+}
+
+.h1TagApot {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25px;
+}
+
+.AcceptBtn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.appoitment {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  /* padding: 5px; */
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+.fpaper {
+  padding: 5px;
+  display: flex;
+}
+.spaper {
+  padding: 5px;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+}
+.small {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.addbtn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh;
+  margin-right: 40px;
+}
+
+.titleM {
+  display: flex;
+  margin: 2vh;
+  margin-right: 40px;
+  justify-content: space-around;
+}
+.row {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row1 {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.wardZone {
+  margin-top: 3vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 3vh;
+}
+
+.row2 {
+  margin-top: 5vh;
+  flex-wrap: wrap;
+  margin-left: 70px;
+  display: flex;
+}
+
+.second {
+  display: flex;
+  justify-content: space-evenly;
+}
+.paperCenter {
+  display: flex;
+  justify-content: center;
+}
+.tableButton {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Button1 {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.title {
+  margin-top: 5vh;
+  margin-left: 15vh;
+}
+
+.row3 {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 5vh;
+}
+
+.uploadButton:hover {
+  cursor: pointer;
+}
+
+.uploadButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: max-content;
+  padding: 5px 5px;
+}
+
+.fileName {
+  color: #9c27b0;
+  font-size: 12;
+  font-weight: bold;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+}
+
+.slot {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: flex-end;
+}
+
+.box {
+  flex-direction: column;
+  display: flex;
+  background-color: whitesmoke;
+  margin-left: 120px;
+  margin-top: 10px;
+  overflow-y: hidden;
+  resize: none;
+  height: 600px;
+  width: 1050px;
+  position: "absolute";
+}
+
+.boxRemark {
+  flex-direction: column;
+  display: flex;
+  background-color: whitesmoke;
+  margin-left: 120px;
+  margin-top: 10px;
+  overflow-y: hidden;
+  resize: none;
+  height: 270px;
+  width: 1050px;
+  position: "absolute";
+}
+.btnappr {
+  display: flex;
+  justify-content: space-around;
+  margin: 3vh;
+  background-color: #e6e6fa;
+}
+.titleM {
+  display: flex;
+  margin: 2vh;
+  margin-right: 40px;
+  justify-content: space-around;
+}
+
+.titlemodelT {
+  display: flex;
+  margin: 3vh;
+  justify-content: space-between;
+  background-color: #9c27b0;
+}
+
+.titlemodelremark {
+  display: flex;
+  margin: 3vh;
+  justify-content: space-between;
+  background: linear-gradient(90deg, rgb(7 110 230 / 91%) 2%, rgb(210 242 249) 100%);
+}
+
+.titlemodelremarkAprove {
+  display: flex;
+  /* margin: 3vh; */
+  justify-content: space-between;
+  background: linear-gradient(90deg, rgb(156 79 215 / 91%) 2%, rgb(75 143 143) 100%);
+}
+
+/* .titlemodelB {
+    display: flex;
+    margin: 3vh;
+    justify-content: space-around;
+    background-color: #e6e6fa;
+  } */
+
+.btnSerch {
+  margin-top: 18px;
+}
+
+.btndate {
+  margin-top: 8px;
+}
+
+.Adress {
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+.details {
+  background: linear-gradient(90deg, rgb(7 110 230 / 91%) 2%, rgb(210 242 249) 100%);
+
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 30px;
+  /* margin-left: 25px; */
+  height: 6vh;
+}
+
+.h1Tag {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25px;
+}
+
+.popup {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25px;
+}
+
+.row1 {
+  margin-top: 5px;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+}
+
+.row2 {
+  margin-top: 5px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+}
+.srow {
+  /* border: 1px solid black; */
+  width: 35%;
+}
+
+.buttonRow {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* booking */
+
+.box1 {
+  flex-direction: column;
+  display: flex;
+  background-color: whitesmoke;
+  margin-left: 300px;
+  margin-top: 100px;
+  overflow-y: hidden;
+  resize: none;
+  height: 270px;
+  width: 800px;
+  position: "absolute";
+}
+
+.boxRemark1 {
+  flex-direction: column;
+  display: flex;
+  background-color: whitesmoke;
+  margin-left: 120px;
+  margin-top: 10px;
+  overflow-y: hidden;
+  resize: none;
+  height: 270px;
+  width: 1050px;
+  position: "absolute";
+}
+.btnappr1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 3vh;
+  background-color: #e6e6fa;
+}
+.titleM1 {
+  display: flex;
+  margin: 2vh;
+  margin-right: 40px;
+  justify-content: space-around;
+}
+
+.titlemodelT1 {
+  display: flex;
+  margin: 3vh;
+  justify-content: space-between;
+  background-color: #9c27b0;
+}
+
+.titlemodelremark1 {
+  display: flex;
+  margin: 3vh;
+  justify-content: space-between;
+  background: linear-gradient(90deg, rgb(7 110 230 / 91%) 2%, rgb(210 242 249) 100%);
+}
+
+.detailsTABLE {
+  background: linear-gradient(90deg, rgb(72 115 218 / 91%) 2%, rgb(142 122 231) 100%);
+
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 30px;
+  /* margin-left: 25px; */
+  height: 50px;
+  border-radius: 100px;
+}
+
+.h1TagTABLE {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25px;
+}

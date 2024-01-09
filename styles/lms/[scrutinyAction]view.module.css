@@ -1,0 +1,41 @@
+.apprve {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.boxRemark {
+  flex-direction: column;
+  display: flex;
+  background-color: whitesmoke;
+  margin-left: 0px;
+  margin-top: 10px;
+  overflow-y: hidden;
+  resize: none;
+  height: 270px;
+  width: 1050px;
+  position: "absolute";
+}
+
+.titlemodelremarkAprove {
+  display: flex;
+  /* margin: 3vh; */
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    rgb(156 79 215 / 91%) 2%,
+    rgb(75 143 143) 100%
+  );
+}
+
+.btndate {
+  margin-top: 8px;
+}
+
+.btnappr {
+  display: flex;
+  justify-content: space-around;
+  margin: 3vh;
+  background-color: #e6e6fa;
+}

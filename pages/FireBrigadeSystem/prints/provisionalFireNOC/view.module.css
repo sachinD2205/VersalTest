@@ -1,0 +1,346 @@
+/* .logo {
+  background-color: aqua;
+  width: 10%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+}
+.middle {
+  display: flex;
+  background-color: darkblue;
+  width: 20vw;
+  flex-direction: column;
+}
+.middlee {
+   background-color: darkgrey; 
+ }
+
+.main {
+  padding-top: 10%;
+  display: flex;
+  justify-content: space-around;
+  background-color: blueviolet;
+}
+.left {
+  display: flex;
+  background-color: brown;
+  flex-direction: column;
+  justify-content: center;
+}
+.right {
+  display: flex;
+  align-items: center;
+  background-color: coral;
+}
+.title {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+} */
+
+/* ////////////////////////////////// */
+/* 
+.mainn {
+  display: flex;
+  justify-content: space-around;
+
+  justify-content: space-evenly;
+}
+.middlee {
+  display: flex;
+  width: 52vw;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.leftt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1vh;
+}
+.rightt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.upperdivv {
+  display: flex;
+  justify-content: space-between;
+}
+.lowerdivv {
+  display: flex;
+  flex-direction: column;
+}
+.h3 {
+  align-items: center;
+} */
+
+
+.Buildingdetails td
+{
+  text-align: center;
+}
+
+
+.logo {
+  display: flex;
+}
+
+.bInfo {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.query {
+  background-color: lightgray;
+  display: flex;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.h5 {
+  background-color: darkgrey;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-start;
+  padding-left: 40px;
+  margin-top: 2vh;
+}
+
+.add1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-start;
+  padding-left: 40px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+/* .add h5 {
+  color: white;
+} */
+.summary {
+  background-color: lightblue;
+}
+
+.summ {
+  display: flex;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.heading {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+}
+
+.logo2 {
+  /* background-color :red; */
+  display: flex;
+  justify-content: center;
+}
+.logo3 {
+  justify-content: left;
+  background-color: aqua;
+}
+
+.table {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+
+.mainn {
+  display: flex;
+
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+.main {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  width: 80%;
+
+  /* display: flex;
+  padding: 10%; */
+}
+
+.smain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sHeading {
+  display: flex;
+  background-color: gray;
+}
+
+.one {
+  display: flex;
+  justify-content: space-around;
+  /* margin: auto; */
+  /* border: 1px solid black; */
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.middle {
+  /* background-color: darkolivegreen; */
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  /* width: 25%; */
+  /* justify-content: center; */
+  /* justify-content: center; */
+
+  /* align-items: center; */
+}
+
+.foot {
+  display: flex;
+  /* align-content: center; */
+  /* justify-content: space-between; */
+  align-items: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+/* New */
+.header {
+  margin-top: 1%;
+}
+
+/* report css */
+.reportContainer {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  margin-top: 10\px;
+  /* margin-left: 40px; */
+  /* margin-right: 140px; */
+  /* background-color: white !important;
+   */
+  /* background-color: "red"; */
+}
+
+.reportContainer .headerTable {
+  width: 100%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.reportContainer .headerTable td {
+  border: 0px solid black !important;
+  margin: 0px;
+  text-align: center;
+}
+
+.reportContainer .headerTable1 {
+  width: -webkit-fill-available;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.reportContainer .headerTable1 td {
+  border: 0px solid black !important;
+  margin: 0px;
+
+  text-align: center;
+}
+
+.reportContainer .Table1 {
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+  /* margin-top: 1; */
+}
+
+.reportContainer .Table1 td {
+  border: 0px solid black !important;
+}
+
+.reportContainer .Table4 {
+  width: 100%;
+  vertical-align: top;
+  text-align: start;
+}
+
+.reportContainer .Table5 {
+  width: 100%;
+  text-align: center;
+}
+
+.reportContainer .Table6 {
+  width: 100%;
+  border: 0px solid white !important;
+}
+.reportContainer .Table6 td {
+  border: none;
+}
+/* Table8 */
+.reportContainer .Table8 {
+  width: 100%;
+  border: 0px solid white !important;
+}
+.reportContainer .Table8 td {
+  border: none;
+}
+.reportContainer .Table7 {
+  width: 100%;
+}
+
+.reportContainer .reportContent {
+  /* padding: 1px; */
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: -20px;
+}
+
+.reportContainer table {
+  border-collapse: collapse;
+}
+.reportContainer p {
+  text-indent: 50px;
+  font-size: 12;
+  text-align: justify;
+}
+
+.reportContainer table th,
+.reportContainer table td {
+  border: 1px solid black;
+  padding: 2px;
+  text-align: justify;
+}

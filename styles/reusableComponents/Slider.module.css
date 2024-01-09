@@ -1,0 +1,44 @@
+.switch {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  background-color: #206bc7;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.switch input:checked + .slider {
+  background-color: #15c3e6;
+}
+
+.knob {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  cursor: pointer;
+}
+
+.switch input:checked ~ .knob {
+  transform: translateX(27px) translateY(-50%);
+}

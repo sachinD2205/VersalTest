@@ -1,0 +1,96 @@
+.main {
+  /* padding: 5px; */
+  /* position: relative; */
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+.fpaper {
+  padding: 5px;
+  display: flex;
+}
+.spaper {
+  padding: 5px;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+  justify-content: center;
+}
+.small {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.addbtn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh;
+  margin-right: 40px;
+}
+.row {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* .attachFile {
+  background-color: aqua;
+} */
+.row1 {
+  position: relative;
+  left: 80px;
+  margin-top: 5vh;
+  /* left: auto; */
+  /* margin-top: 200; */
+  /* margin-left: 500; */
+}
+
+.second {
+  display: flex;
+  justify-content: space-evenly;
+}
+.paperCenter {
+  display: flex;
+  justify-content: center;
+}
+.tableButton {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Button1 {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.modalDiv {
+  position: 'absolute';
+  background-color: whitesmoke;
+  width: 40vw;
+  height: 30vh;
+  /* top: '50%';
+  left: '50%'; */
+  /* transform: translate(50%, 50%); */
+  /* border: "2px solid #000"; */
+  /* boxshadow: 10; */
+  /* p: 4; */
+}
+
+.filee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 5vh;
+}

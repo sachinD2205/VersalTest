@@ -1,0 +1,27 @@
+.uploadButton:hover {
+    cursor: pointer;
+  }
+  
+  .uploadButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: max-content;
+    padding: 5px 5px;
+  }
+  
+  .fileName {
+    /* color: #9c27b0;
+    font-size: 12;
+    font-weight: bold; */
+    height: 50;
+    background-color: #3498DB;
+    padding: 10px;
+    color: white;
+    border-radius: "10%";
+  }
+  
+  .align {
+    display: flex;
+    align-items: center;
+  }

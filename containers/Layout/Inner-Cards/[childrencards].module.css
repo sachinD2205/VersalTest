@@ -1,0 +1,19 @@
+.container {
+  padding: 5px;
+}
+
+.innerGrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid gray;
+  width: 75%;
+  cursor: pointer;
+   /* display: flex;
+   justify-content: space-between;
+   padding: 5px;
+   align-items: center; */
+}

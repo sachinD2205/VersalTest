@@ -1,0 +1,74 @@
+.table_container {
+  display: grid;
+  /* grid-template-columns: 6fr 1fr; Notice the space instead of comma */
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border: 1px solid black;
+}
+
+.missingColumn {
+  background-color: red;
+  color: white;
+}
+.mandatory {
+  color: red;
+}
+
+.table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  width: 100%;
+  /* border: 2px solid #556cd6; */
+  box-shadow: 10px 10px 10px lightblue;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  min-width: 100px;
+}
+
+.table th {
+  background-color: #556cd6;
+  font-weight: bold;
+  padding: 14px !important;
+  text-transform: capitalize;
+  color: white;
+}
+
+.checkboxHeader {
+  width: 100px !important; /* Set the desired width */
+}
+
+.table_Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.table_Input {
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  width: 200px;
+  padding-left: 10px;
+}
+.table_Para {
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  font-weight: bold;
+}
+
+@media screen and (orientation: landscape) {
+  .table-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .table {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+  }
+}

@@ -1,0 +1,195 @@
+.MainPaper{
+    /* border: 2px solid red; */
+    /* padding: 3.5vh  3.5vw; */
+}
+
+
+
+.TitleHeaderImage{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 5vw; */
+    /* border: 2px solid red; */
+    /* background-color: red; */
+    /* margin-bottom: ; */
+}
+
+.FileOwc{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3.5vw;
+    margin: 1vh 0;
+}
+
+
+.TitleHeader{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+
+
+.Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 0;
+}
+
+
+.Stack{
+    display: flex;
+    justify-content: left;
+    margin-left: 3vw;
+    margin-bottom: 3.5vh;
+}
+
+.MainDiv{
+padding-left: 3.5vw;
+}
+
+.Table{
+    width: 95%;
+    height: 100%;
+    padding: 1.5vh 3vw;
+    margin: 1vh 2vw;
+    display: inline-block;
+    /* border: 2px solid black; */
+}
+
+.Name1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0.7vh 0;
+    /* border: 2px solid red; */
+}
+
+.Token{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 10vw;
+    margin-bottom: 0.2vh;
+    /* border: 2px yellow solid; */
+  
+}
+
+.TextArea{
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.Points{
+    display: flex;
+    /* margin-top: 0.5vh; */
+    /* border: 2px solid green; */
+}
+
+
+
+.Bottom1{
+    display: flex;
+    justify-content: right;
+    margin-right:1.5vw;
+     /* font-size: 0.8vh; */
+    /* border: 2px solid red; */
+}
+
+
+.Bottom2{
+    display: flex;
+    justify-content: right;
+     /* font-size: 0.8vh; */
+    /* border: 2px solid red; */
+}
+
+
+
+.Bottom3{
+    display: flex;
+    justify-content: right;
+    margin-right: 3vw;
+     /* font-size: 0.8vh; */
+    /* border: 2px solid red; */
+}
+
+
+
+
+.BBottom1{
+    display: flex;
+    justify-content: left;
+    margin-left: 3vw;
+    /* font-size: 0.8vh; */
+    /* border: 2px solid red; */
+}
+
+
+.hr{
+   border-top: 2px dashed black;
+   /* margin-top: 0.5vh; */
+   /* background-color: red; */
+}
+
+
+
+
+.tt{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.2vh;
+    /* background-color: yellow; */
+    /* border: 2px solid blue; */
+/* display: flex; */
+}
+
+
+.div1{
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    color: black;
+    /* text-align: center; */
+     /* text-decoration-thickness: 5px; */
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8vw;
+    color: black;
+    /* text-align: center; */
+}
+
+.div3{
+      display: flex;
+      justify-content: center;
+      font-size:1.5vw;
+      color: black;
+      /* text-align: center; */
+}
+
+.div4{
+      display: flex;
+      justify-content: center;
+      font-size: 1.3vw;
+      color: black;
+      /* text-align: center; */
+}
+
+
+
+
+.img1{
+   width: 13vw; 
+   /* height: ; */
+}
+
+
+.img2{
+    width: 22vw; 
+    /* margin: 2vh 0; */
+   /* height: ; */
+}
+

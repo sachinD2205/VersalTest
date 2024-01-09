@@ -1,0 +1,101 @@
+.main {
+  padding: 3%;
+}
+
+.centerAlign {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  column-gap: 50px;
+}
+
+.fieldsWrapper {
+  margin-top: 20px;
+  padding: 0px 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.subTitle {
+  margin-top: 40px;
+  height: 35px;
+
+  background: linear-gradient(to right, #0168d0, #8dc6ff);
+
+  color: white;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+
+  display: grid;
+  place-items: center;
+
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: medium;
+  border-radius: 100px;
+}
+
+.table {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.table th,
+.table td {
+  padding: 8px 12px;
+  border: 1px solid black;
+}
+
+.table th {
+  font-size: medium;
+  background-color: #1976d2;
+  color: white;
+}
+
+.buttonGroup {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pagination {
+  text-align: right;
+}
+
+.size {
+  margin: 8px;
+  padding: 4px;
+
+  border: none;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.searchBar {
+  font-size: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  column-gap: 10px;
+}
+
+.row {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 70px;
+  flex-wrap: wrap;
+}

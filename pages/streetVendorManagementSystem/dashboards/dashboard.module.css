@@ -1,0 +1,126 @@
+.main {
+  padding: 2%;
+}
+
+.row {
+  margin: 2% 0%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title {
+  background: linear-gradient(to right, #125597, #9ccdff);
+  color: white;
+  padding: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: larger;
+  border-radius: 20px;
+}
+
+.subTitle {
+  background: linear-gradient(to right, #125597, #9ccdff);
+
+  color: white;
+  margin-top: 40px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: medium;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.container {
+  padding: 1%;
+  width: 100%;
+  height: 50px;
+  margin: 0%;
+  overflow: hidden;
+}
+
+.slider {
+  height: 95px;
+  padding: 1%;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  transition: 0.3s ease;
+  z-index: 5;
+}
+
+.slider button {
+  width: 100%;
+}
+
+.slider > span {
+  padding: 0% 2%;
+  margin-top: 5%;
+}
+
+.slider:hover {
+  transform: translateY(-50px);
+}
+
+.tilesWrapper {
+  background-color: whitesmoke;
+  border: 1px solid #175798;
+  color: #125597;
+  border-radius: 15px;
+  width: 100%;
+  margin: 3% 0%;
+  padding-top: 1%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  width: 19%;
+  padding: 0px 5px;
+  margin: 5px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+
+  position: relative;
+}
+
+.tileContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tileContent > span {
+  color: #1976d2;
+}
+
+.icon {
+  background: linear-gradient(to right, #125597, #9ccdff);
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.divider {
+  background-color: #1976d2;
+  height: 30%;
+  width: 2px;
+  position: absolute;
+  right: 0%;
+  top: 35%;
+}

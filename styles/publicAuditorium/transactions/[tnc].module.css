@@ -1,0 +1,12 @@
+.abcd {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+.AcceptBtn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+}

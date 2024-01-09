@@ -1,0 +1,172 @@
+
+.Paper{
+    background-color: white;
+    padding: 4vh 0vw;
+}
+
+
+.PhotoHeader{
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+    padding: 2vh 0vw;
+    font-size: 15px;
+    /* background-color: red; */
+}
+
+.Heading{
+    text-align: center;
+    padding: 1vh ;
+    font-weight: bold;
+    font-size: 20px;
+    /* background-color: red; */
+    /* color:yellow; */
+}
+
+
+/* Main header */
+.MainHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1vh 1vw ;
+     margin: 2vh 10vw;
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius:5vh ;
+    background-color:#0084ff ;
+    font-weight: bold;
+}
+
+
+.SiteVisitPhotoHeader{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-bottom: 3vh;
+    /* color: red; */
+
+}
+
+.SiteVisitQuestionHeader{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-bottom: 3vh;
+    /* color: red; */
+
+}
+
+.SiteVisitHawkerDetailHeader{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-bottom: 3vh;
+    /* color: red; */
+
+}
+
+.SitieVisitRemark{
+  /* background-color: red; */
+  /* display: flex;
+  justify-content: space-between;
+  align-items: flex-start;     */
+}
+
+
+.SiteRemarkTitle{
+    /* display: ; */
+}
+
+.TextareaAutosizeCSS{
+    width: 50vw;
+    /* background-color: yellow; */
+}
+
+.RoadWidthTextField{
+  width:400px;
+}
+
+
+
+@media only screen and (min-width:481px) and (max-width:600px ) {
+   
+    .SitieVisitRemark{
+    padding: 0vh 20vw;
+}
+
+.SiteVisitQuestionAnswer{
+  /* background-color: red; */
+  padding: 1vh 20vw;
+}
+
+.RoadWidthTextField{
+  width:300px;
+}
+
+}
+
+@media only screen and (min-width:351px) and (max-width:480px ) {
+   
+    .SitieVisitRemark{
+  /* background-color: yellow; */
+  padding: 0vh 20vw;
+}
+
+.SiteVisitQuestionAnswer{
+  /* background-color: blue; */
+  padding: 1vh 10vw;
+}
+
+.RadioButtonBusinessLocation{
+    width: 230px;
+}
+
+.RadioButtoninsefectionSellingFood{
+     width: 230px;
+}
+.RadioButtonBusinessTraffice{
+     width: 230px;
+}
+
+
+.RoadWidthTextField{
+  width: 250px;
+}
+
+}
+
+
+
+@media only screen and (max-width:350px){
+  .SitieVisitRemark{
+  /* background-color: green; */
+  padding: 0vh 10vw;
+}
+
+
+.SiteVisitQuestionAnswer{
+  /* background-color: green; */
+  padding: 1vh 5vw;
+
+}
+
+.RadioButtonBusinessLocation{
+    width: 230px;
+}
+.RadioButtoninsefectionSellingFood{
+     width: 230px;
+}
+
+.RadioButtonBusinessTraffice{
+     width: 230px;
+}
+
+.RoadWidthTextField{
+  width: 230px;
+}
+
+
+}

@@ -1,0 +1,78 @@
+.main {
+  /* padding: 5px; */
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+.fpaper {
+  padding: 5px;
+  display: flex;
+}
+.spaper {
+  padding: 5px;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+  justify-content: center;
+}
+.small {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.addbtn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh;
+  margin-right: 40px;
+}
+.row {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.second {
+  display: flex;
+  justify-content: space-evenly;
+}
+.paperCenter {
+  display: flex;
+  justify-content: center;
+}
+.tableButton {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Button1 {
+  display: flex;
+  margin-bottom: 5px;
+}
+.addbtn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh;
+  margin-right: 40px;
+}
+
+.fancy_link1 {
+  background-image: linear-gradient(red, blue);
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+  text-decoration: none;
+  width: "80%";
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+.fancy_link1:hover {
+  background-size: 100% 3px;
+  font-weight: 700;
+  font-size: 18;
+}

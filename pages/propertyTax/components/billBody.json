@@ -1,0 +1,171 @@
+{
+  "billGeneratedYear": "2023-24",
+  "zoneNo": 1,
+  "gatNo": 3,
+  "propertyCode": 1020100129.0,
+  "billNo": 115,
+  "dateofBillGeneration": "14/07/2023",
+  "ownerName": "Rahul Dupate",
+  "occupantName": "Sangita Ahire",
+  "propertyAddress": "Property Address here",
+  "propertyDescription": "Property Description here",
+  "mobileNo": 9658748512,
+  "areaBuiltUp": {
+    "resident": 100,
+    "nonResident": { "professional": 20, "industrial": 20 },
+    "freeLand": 100,
+    "total": 9999
+  },
+  "taxableValue": {
+    "resident": 100,
+    "nonResident": { "professional": 20, "industrial": 20 },
+    "freeLand": 100,
+    "total": 9999
+  },
+  "taxes": [
+    {
+      "taxNameEn": "Administrative Service Fees",
+      "taxNameMr": "प्रशासकीय सेवा शुल्क",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "General tax",
+      "taxNameMr": "सामान्य कर",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "Tree cess",
+      "taxNameMr": "वृक्ष उपकर",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "Sewage facility benefit tax",
+      "taxNameMr": "मलप्रवाह सुविधा लाभ कर",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "Water Supply Benefit Tax",
+      "taxNameMr": "पाणीपुरवठा लाभ कर",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "Road Tax",
+      "taxNameMr": "रस्ता कर",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "Special Cleaning Tax",
+      "taxNameMr": "विशेष साफसफाई कर",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "Education Tax",
+      "taxNameMr": "शिक्षण कर",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "Employment Guarantee Tax",
+      "taxNameMr": "रोजगार हमी कर",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "Floorage Tax",
+      "taxNameMr": "फ्लोअरेज कर",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "Municipal Tax Penalty",
+      "taxNameMr": "मनपा कर शास्ती",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "Expropriation Costs",
+      "taxNameMr": "जप्ती खर्च",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "Education Tax Notice Fee",
+      "taxNameMr": "शिक्षण कर नोटीस फी",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "Floorage Tax Notice Fee",
+      "taxNameMr": "फ्लोअरेज कर नोटीस फी",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "Penalty for illegal construction",
+      "taxNameMr": "अवैध बांधकाम शास्ती",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    },
+    {
+      "taxNameEn": "Aggregate Demand",
+      "taxNameMr": "एकूण मागणी",
+      "rate": 10,
+      "pastDue": 1000,
+      "firstHalf": 300,
+      "secondHalf": 200,
+      "total": 5000
+    }
+  ]
+}

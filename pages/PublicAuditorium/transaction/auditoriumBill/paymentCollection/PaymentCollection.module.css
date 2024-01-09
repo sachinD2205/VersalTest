@@ -1,0 +1,128 @@
+.details {
+  background: linear-gradient(
+    90deg,
+    rgb(7 110 230 / 91%) 2%,
+    rgb(210 242 249) 100%
+  );
+
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* margin-left: 25px; */
+  height: 6vh;
+}
+
+.h1Tag {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25px;
+}
+
+.row {
+  margin-top: 1vh;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row1 {
+  margin-top: 1vh;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.row4 {
+  margin-top: 1vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.row5 {
+  /* margin-top: 1vh; */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+
+.appDetails {
+  text-align: left;
+  padding: 34px;
+}
+
+.report_table > thead > tr > th {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.report_table > tbody > tr > td {
+  text-align: center;
+  border: 1px solid black;
+}
+.report_table > tbody > tr > th {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.report_table > thead > tr > td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.report_table > thead {
+  width: 80%;
+}
+.report_table {
+  width: 90%;
+  margin-left: 40px;
+}
+.tfoot {
+  border: 1px solid black;
+}
+.data1 {
+  font-size: 15px;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+/* newTable */
+
+.__table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.__td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 5px;
+}
+.__th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+  background-color: #DEE3DE;
+}
+
+.__tdAmt{
+  border: 1px solid black;
+  text-align: right;
+  padding: 5px;
+}
+
+.__tr:nth-child(even) {
+  /* border: solid red; */
+  /* background-color: #dddddd; */
+}

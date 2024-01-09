@@ -1,0 +1,131 @@
+.main {
+  padding: 3%;
+}
+
+.paymentWrapper {
+  padding: 2%;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.centerHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centerHeader h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tableWrap {
+  margin: 10px 0px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.tableRow {
+  width: 100%;
+  font-family: sans-serif;
+  border: 1px solid black;
+}
+
+.tableData1 {
+  width: 20%;
+  padding-left: 10px;
+  border: 1px solid black;
+
+  font-weight: bolder;
+}
+
+.tableData2 {
+  width: 20%;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+
+.tableData3 {
+  width: 20%;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+
+.buttons {
+  margin-top: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.divider {
+  /* display: none; */
+  border: 1px dashed black;
+  margin: 3% 0%;
+}
+
+.customerCopy {
+  display: none;
+}
+
+@media print {
+  .divider {
+    display: block;
+  }
+
+  .customerCopy {
+    display: block;
+  }
+  .tableData1 {
+    font-size: 9px;
+  }
+  .tableData2 {
+    font-size: 9px;
+  }
+  .tableData3 {
+    font-size: 9px;
+  }
+}
+    /* Small devices (tablets, 768px and down) */
+    @media screen and (max-width: 768px) {
+      .tableData1,
+      .tableData2,
+      .tableData3 {
+        font-size: 10px;
+      }
+
+      .header {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .centerHeader h1 {
+        font-size: 18px;
+      }
+    }
+
+    /* Extra-small devices (phones, 576px and down) */
+    @media screen and (max-width: 576px) {
+      .tableData1,
+      .tableData2,
+      .tableData3 {
+        font-size: 8px;
+        padding-left: 0px;
+      }
+
+      .centerHeader h1 {
+        font-size: 16px;
+      }
+    }
+    

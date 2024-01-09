@@ -1,0 +1,40 @@
+.btn {
+  margin: 50;
+  display: flex;
+  justify-content: space-between;
+}
+.date {
+  display: flex;
+  justify-content: space-around;
+}
+.search {
+  display: flex;
+  margin-left: 12.5vw;
+  margin-bottom: 5vh;
+}
+.btns {
+  margin: 3vw;
+}
+.sDate {
+  margin-top: 3.5;
+  padding: 4vh;
+}
+.searchBtn {
+  margin-top: 5.5vh;
+}
+.btndiv {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2%;
+}
+.main {
+  height: 500;
+  width: 450;
+}
+
+.selectContainer {
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
+}

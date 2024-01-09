@@ -1,0 +1,67 @@
+
+.ChartMainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 1vw;
+    margin: 1vh 1vw;
+    /* border: 2px solid red; */
+    overflow: auto; 
+}
+.ChartDivBelowChart{
+       display: flex;
+    align-items: center;
+    word-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 1vh 3vw;
+    border: 2px solid black;
+    padding: 1.5vh 1vw;
+}
+
+.SearchHeader{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DayWiseHeaderName{
+  border-top:3px solid black ;
+  margin: 5vh 0;
+}
+
+.ChartTitle{
+    background-color: red;
+}
+
+#apex-tempu .apexcharts-yaxis-label{
+    padding: 20px;
+    margin: 20px;
+}
+
+.ChartName{
+background-color: rebeccapurple;
+}
+
+
+
+.categoryWiseFormDateToDate{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+ /* border: 2px solid black; */
+ /* margin: 0 0; */
+ /* margin-left:  2vw; */
+ /* margin-right:  10vw; */
+}
+
+
+.GridItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      /* style={{ display: "flex", justifyContent: "center", alignItem: "center" }} */
+}

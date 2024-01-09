@@ -1,0 +1,80 @@
+.main {
+  padding: 3%;
+  display: grid;
+  place-items: center;
+}
+
+.wrapper {
+  width: 900px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  width: 100%;
+  margin: 15px 0px;
+}
+
+.table td,
+.table th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.srNo {
+  width: 50px;
+  text-align: center;
+}
+
+.descriptionName {
+  min-width: 150px;
+}
+
+.valueField {
+  min-width: 300px;
+}
+
+.floor {
+  width: 75px;
+}
+.area {
+  width: 150px;
+}
+.constructionType {
+  width: 150px;
+}
+.usageType {
+  width: 175px;
+}
+
+.paragraph {
+  padding-top: 20px;
+  text-indent: 75px;
+  text-align: justify;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 20px;
+}
+.footer td {
+  padding: 10px 0px;
+}
+
+.finalFooter {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0px 50px;
+}
+
+.finalFooter label {
+  height: 100px;
+}

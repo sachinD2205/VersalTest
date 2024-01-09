@@ -1,0 +1,63 @@
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.buttons {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .main {
+  padding: 3% 3%;
+} */
+
+.fancyButton {
+  background-color: red;
+}
+
+.addbtn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh;
+  margin-right: 40px;
+}
+.fancy_link {
+  background-image: linear-gradient(red, blue);
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+  /* text-decoration: none; */
+  /* width: 260px; */
+}
+
+.fancy_link:hover {
+  background-size: 100% 3px;
+  font-weight: 400;
+}
+
+
+.fancy_link:hover {
+  background-size: 100% 3px;
+  font-weight: 400;
+}
+
+.fancy_link1 {
+  background-image: linear-gradient(red, blue);
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+  text-decoration: none;
+  width: 260px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+.fancy_link1:hover {
+  background-size: 100% 3px;
+  font-weight: 700;
+  font-size: 18;
+  width: 260px;
+}

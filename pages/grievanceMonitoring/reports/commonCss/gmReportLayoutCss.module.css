@@ -1,0 +1,335 @@
+
+.PaperMain {
+    padding: 2vh 2vw   ; 
+    margin: 2vh 2vw   ; 
+}
+
+
+.GridItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      /* style={{ display: "flex", justifyContent: "center", alignItem: "center" }} */
+}
+
+
+.MainPaper{
+    /* border: 2px solid red; */
+    /* padding: 3.5vh  3.5vw; */
+}
+
+
+
+.TitleHeaderImage{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 5vw; */
+    /* border: 2px solid red; */
+    /* background-color: red; */
+    /* margin-bottom: ; */
+}
+
+.FileOwc{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3.5vw;
+    margin: 1vh 0;
+}
+
+
+.TitleHeader{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+
+
+.Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 0;
+}
+
+
+.Stack{
+    display: flex;
+    justify-content: left;
+    margin-left: 3vw;
+    margin-bottom: 3.5vh;
+}
+
+
+
+.MainDiv{
+/* padding-left: 3.5vw; */
+/* margin-bottom: 5vh; */
+/* border: 2px soild red; */
+}
+
+.Table{
+    width: 90%;
+    height: 100%;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    padding: 5vh 5vw;
+    /* padding: 1.5vh 3vw; */
+    /* margin: 1vh 2vw; */
+    display: inline-block;
+    /* border: 2px solid black; */
+}
+
+.Name1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0.7vh 0;
+    /* border: 2px solid red; */
+}
+
+.Token{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 10vw;
+    margin-bottom: 0.2vh;
+    /* border: 2px yellow solid; */
+  
+}
+
+.TextArea{
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.Points{
+    display: flex;
+    /* margin-top: 0.5vh; */
+    /* border: 2px solid green; */
+}
+
+
+
+.Bottom1{
+    display: flex;
+    justify-content: right;
+    margin-right:1.5vw;
+     /* font-size: 0.8vh; */
+    /* border: 2px solid red; */
+}
+
+
+.Bottom2{
+    display: flex;
+    justify-content: right;
+     /* font-size: 0.8vh; */
+    /* border: 2px solid red; */
+}
+
+
+
+.Bottom3{
+    display: flex;
+    justify-content: right;
+    margin-right: 3vw;
+     /* font-size: 0.8vh; */
+    /* border: 2px solid red; */
+}
+
+
+
+
+.BBottom1{
+    display: flex;
+    justify-content: left;
+    margin-left: 3vw;
+    /* font-size: 0.8vh; */
+    /* border: 2px solid red; */
+}
+
+
+.hr{
+   border-top: 2px dashed black;
+   /* margin-top: 0.5vh; */
+   /* background-color: red; */
+}
+
+
+
+
+.tt{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.2vh;
+    /* background-color: yellow; */
+    /* border: 2px solid blue; */
+/* display: flex; */
+}
+
+
+.div1{
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    color: black;
+    /* text-align: center; */
+     /* text-decoration-thickness: 5px; */
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8vw;
+    color: black;
+    /* text-align: center; */
+}
+
+.div3{
+      display: flex;
+      justify-content: center;
+      font-size:1.5vw;
+      color: black;
+      /* text-align: center; */
+}
+
+.div4{
+      display: flex;
+      justify-content: center;
+      font-size: 1.3vw;
+      color: black;
+      /* text-align: center; */
+}
+
+
+
+
+.img1{
+   width: 13vw; 
+   /* height: ; */
+}
+
+
+.img2{
+    width: 22vw; 
+    /* margin: 2vh 0; */
+   /* height: ; */
+}
+
+
+.TableHeader1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    /* padding: 0.5vw 0vh; */
+    font-size: 17px;
+    font-weight: bold;
+    /* background-color: red; */
+    /* background-color: red; */
+}
+
+.TableHeader2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    /* padding: 0vw 0vh; */
+    font-size: 15px;
+    font-weight: bold;
+    /* background-color: red; */
+    /* background-color: red; */
+}
+
+
+.TableHeader3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    /* padding: 0vw 0vh; */
+    font-size:13px;
+    font-weight: bold;
+    /* background-color: red; */
+    /* background-color: red; */
+}
+
+.table2{
+    width: 90;
+    padding:10px ;
+    /* padding-top: 10vh; */
+    display: flex;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+    /* display: b; */
+    /* display: flex; */
+    /* box-sizing: border-box; */
+}
+
+.table2HederBorder{
+ border: 1px solid black;
+ text-align: center;
+}
+
+.table2HeaderMP {
+    padding: 1vh 1vw;
+    font-weight: bold;
+    /* background-color: green; */
+}
+
+
+
+.tableContentBorder{
+ border: 1px solid black;
+ text-align: center;
+}
+
+.table2ContentMP {
+    padding: 1vh 1vw;
+    /* background-color: green; */
+}
+
+
+
+
+
+/*  Report ------------------>  */
+.HideReportLayout{
+    display: none;
+}
+
+.tableDiv{
+    padding: 0 2vw;
+    background-color: yellow;
+}
+
+.table{
+    width: 100%;
+    margin:1vh 0;
+    /* background-color: red; */
+}
+
+.TableTitle{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 1vh 0;
+    border: 1px solid black;
+    /* background-color:yellow; */
+}
+
+.TableHeader{
+    font-weight: bolder;
+    border: 1px solid black;
+    text-align: center;
+    padding: 0.5vw 0.2vw;
+    font-size: 10px;
+}
+
+
+.TableRows{
+    border: 1px solid black;
+    text-align: center;
+   padding: 0.5vw 0.2vw;
+     font-size: 10px;
+    /* font-weight: bolder; */
+}

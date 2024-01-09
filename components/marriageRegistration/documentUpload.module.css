@@ -1,0 +1,212 @@
+.main {
+  /* padding: 5px; */
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+.fpaper {
+  padding: 5px;
+  display: flex;
+}
+.spaper {
+  padding: 5px;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+  /* justify-content: center; */
+  /* justify-content: space-evenly; */
+  justify-content: flex-end;
+}
+.small {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.addbtn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh;
+  margin-right: 40px;
+}
+.srow {
+  /* border: 1px solid black; */
+  width: 35%;
+}
+.row {
+  /* background-color: aqua; */
+  margin-top: 6vh;
+  justify-content: space-evenly;
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+}
+.second {
+  display: flex;
+  justify-content: space-evenly;
+}
+.paperCenter {
+  display: flex;
+  justify-content: center;
+}
+.tableButton {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Button1 {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.TableHeading {
+  display: flex;
+  justify-content: center;
+}
+
+.row1 {
+  margin-top: 2vh;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+}
+
+.details {
+  background: linear-gradient(
+    90deg,
+    rgb(7 110 230 / 91%) 2%,
+    rgb(210 242 249) 100%
+  );
+
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 30px;
+  /* margin-left: 25px; */
+  height: 6vh;
+  border-radius: 100px;
+}
+
+.h1Tag {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25px;
+}
+
+.aptable {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.radiobuttonAprv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.apprve {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+}
+
+.slot {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: flex-end;
+}
+
+.box {
+  flex-direction: column;
+  display: flex;
+  background-color: whitesmoke;
+  margin-left: 25%;
+  margin-top: 15%;
+  overflow-y: hidden;
+  resize: none;
+  height: 250px;
+  width: 800px;
+  position: 'absolute';
+}
+.btnappr {
+  display: flex;
+  justify-content: space-around;
+  margin: 3vh;
+  background-color: #e6e6fa;
+}
+.titleM {
+  display: flex;
+  margin: 2vh;
+  margin-right: 40px;
+  justify-content: space-around;
+}
+
+.titlemodelT {
+  display: flex;
+  margin: 3vh;
+  justify-content: space-between;
+  background-color: #0d8af1;
+}
+
+.btndate {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: space-around;
+}
+
+.srow2 {
+  /* border: 1px solid black; */
+  width: 30%;
+}
+.row2 {
+  margin-top: 6vh;
+  justify-content: space-evenly;
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+}
+
+.titlemodelT1 {
+  display: flex;
+  margin: 3vh;
+  justify-content: space-between;
+  background-color: #ba4bee;
+}
+.fileName {
+  color: #9c27b0;
+  font-size: 12;
+  font-weight: bold;
+}
+
+.viewformbtn {
+  margin-top: 6vh;
+  margin-left: 5vh;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blink {
+  /* animation: blinker .85s linear infinite; */
+  animation: blinker 3s linear infinite;
+  color: red;
+  /* font-family: sans-serif; */
+  font-size: medium;
+}
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}

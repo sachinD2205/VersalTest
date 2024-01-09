@@ -1,0 +1,82 @@
+.container {
+    background-color: white;
+    width: 50%;
+    height: 842px;
+    margin: 0 auto;
+    /* padding: 10%; */
+    margin-bottom: 10px;
+    /* padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px; */
+    font-family: Arial, sans-serif;
+  }
+
+  .right_aligned{
+    text-align: right;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  
+  .right_aligned_footer{
+    /* text-align: right; */
+    margin-right: 50px;
+  }
+
+  .header_container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+  
+  .header_name {
+    margin-left: auto;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .certificate_header{
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .para_text{
+    font-size: large;
+    text-align: justify;
+  }
+  
+  .header h2,
+  .header h3,
+  .header p {
+    margin: 5px 0;
+  }
+  
+  .content h4 {
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    margin-bottom: 20px;
+  }
+
+  .footer{
+    margin-top: 50px;
+  }
+  
+  .footer p {
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,263 @@
+.main {
+  padding: 3% 15%;
+}
+
+.billWrapper {
+  padding: 20px;
+}
+
+.redText {
+  color: red;
+  font-weight: bold;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* ---------------------------------------------------------------------- */
+/*                               FRONT                                    */
+/* ---------------------------------------------------------------------- */
+
+.front {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url('/logo.png') no-repeat center;
+  background-size: 40%;
+
+  border: 1px solid rgb(56, 24, 199);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  padding-bottom: 0%;
+}
+
+.centerHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centerHeader h1 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.centerHeader h2 {
+  font-size: 17px;
+  margin: 0;
+}
+
+.centerHeader h3 {
+  font-size: 17px;
+  margin: 0;
+}
+
+.subHeader {
+  margin-top: 10px;
+  padding: 0% 2%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.subHeader span {
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.basicInfo {
+  margin-top: 5px;
+  padding: 0% 2%;
+
+  font-size: 15px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.basicInfo span {
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.mainTable {
+  width: 100%;
+  margin-top: 10px;
+
+  page-break-after: always;
+}
+
+.mainTable td {
+  padding: 3px;
+  width: max-content;
+
+  border: 1px solid rgb(56, 24, 199);
+
+  font-size: 14px;
+  text-align: center;
+}
+
+.imageWrapper {
+  margin-top: 5px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+
+.walletImages {
+  padding: 3px;
+
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.mainTable td {
+  font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------- */
+/*                                BACK                                    */
+/* ---------------------------------------------------------------------- */
+
+.back {
+  min-height: 96vh;
+
+  margin-top: 20px;
+  padding-bottom: 0px;
+
+  /* color: rgb(56, 24, 199); */
+  border: 1px solid rgb(56, 24, 199);
+
+  font-size: 15.5px;
+}
+
+.first {
+  padding: 10px 20px;
+  border-bottom: 1px solid rgb(56, 24, 199);
+}
+
+.first h2 {
+  margin: 0;
+  /* color: rgb(56, 24, 199); */
+
+  font-size: 22px;
+}
+
+.first h3 {
+  font-size: 20px;
+}
+
+.detailsForPostman {
+  margin: 5px 0px;
+  padding: 5px;
+
+  display: flex;
+  column-gap: 50px;
+}
+
+.subDetailsForPostman {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.returnType1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.returnType2 {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 220px;
+}
+
+.returnTypeLabel {
+  display: flex;
+  align-items: center;
+}
+
+.tickBox {
+  width: 40px;
+  height: 25px;
+
+  margin-left: 15px;
+
+  border: 1px solid rgb(56, 24, 199);
+}
+
+.signBox {
+  width: 120px;
+  height: 40px;
+
+  margin-left: 15px;
+
+  border: 1px solid rgb(56, 24, 199);
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px 20px;
+
+  border-bottom: 1px solid rgb(56, 24, 199);
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px 20px 40px 20px;
+
+  border-bottom: 1px solid rgb(56, 24, 199);
+}
+
+.fourth {
+  display: grid;
+  place-items: center;
+
+  height: 75px;
+}
+
+@media print {
+  .centerHeader h1 {
+    font-size: 16px;
+  }
+  .centerHeader h2 {
+    font-size: 13px;
+  }
+  .centerHeader h3 {
+    font-size: 13px;
+  }
+  .basicInfo {
+    font-size: 13px;
+  }
+  .mainTable td {
+    font-size: 10px;
+  }
+  .back {
+    font-size: 11.5px;
+  }
+  .first h2 {
+    font-size: 18px;
+  }
+  .first h3 {
+    font-size: 16px;
+  }
+}

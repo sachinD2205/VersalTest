@@ -1,0 +1,134 @@
+.Paper {
+  padding: 5vh 5vw;
+  /* background-color: aquamarine; */
+}
+
+.Stack {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2vh 2vw 2vh 0vw;
+
+}
+
+.main {
+  padding: 3%;
+/* background-color: bisque; */
+  display: grid;
+  place-items: center;
+}
+
+.docWrapper {
+  /* width: 825px; */
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.pcmcLogo {
+  width: 135px;
+  height: 135px;
+
+  padding: 8px;
+}
+
+.labelHeading {
+  font-size: 25px;
+}
+.labelSubHeading1 {
+  font-size: 20px;
+}
+.labelSubHeading2 {
+  font-size: 15px;
+}
+.headTable,
+.bodyTable,
+.footTable {
+  width: 100%;
+}
+
+.borderedBody,
+.tableBody {
+  border: 1px solid black;
+}
+
+.borderedBody {
+  padding: 4px 10px;
+}
+
+.nonBorderedBody {
+  text-align: center;
+  padding: 4px 10px;
+}
+
+.details1 {
+  width: 50px;
+  padding: 4px 10px;
+}
+.details2 {
+  width: 20px;
+  padding: 4px 10px;
+}
+.details3 {
+  width: 75%;
+  padding: 4px 10px;
+}
+
+.docBody {
+  padding: 4px 10px;
+}
+
+.docBodyParagraph {
+  /* background-color: rgb(135, 222, 142); */
+  padding-top: 20px;
+  text-indent: 75px;
+  text-align: justify;
+}
+
+.bodyTable {
+  margin-top: 20px;
+  /* background-color: aqua; */
+}
+
+.dividerWrapper {
+  margin-top: 10px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.divider {
+  width: 95%;
+  height: 2px;
+
+  background-color: gray;
+
+  border-radius: 5px;
+}
+
+.footTable {
+  margin-top: 10px;
+}
+
+.footTable td {
+  width: 1px;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+.docFooter {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 10px;
+}
+
+.leftFooter,
+.rightFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftFooter {
+  width: 65%;
+}
+.rightFooter {
+  width: 35%;
+}

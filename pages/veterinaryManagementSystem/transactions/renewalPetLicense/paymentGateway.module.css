@@ -1,0 +1,32 @@
+.main {
+  padding: 3%;
+}
+
+.title {
+  background-color: #1976d2;
+  color: white;
+  padding: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: larger;
+  border-radius: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.upi {
+  font-size: medium;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.buttons {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-around;
+}

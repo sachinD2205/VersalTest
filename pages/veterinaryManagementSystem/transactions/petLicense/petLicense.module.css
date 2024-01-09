@@ -1,0 +1,129 @@
+.main {
+  padding: 3%;
+}
+
+.licenseWrapper {
+  padding: 5%;
+  background-color: white;
+}
+
+.header {
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid grey;
+}
+
+.centerHeader {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  align-items: center;
+}
+
+.centerHeader > label {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.subHeader1 {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+}
+/* .subHeader1 > label {
+  font-size: medium;
+} */
+
+.subHeader1 > span {
+  font-weight: bold;
+  /* font-size: medium; */
+}
+
+.subHeader2 {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.subHeader2 > label {
+  /* font-size: large; */
+  text-align: center;
+}
+
+.tableWrap {
+  margin: 20px 0px;
+  width: 100%;
+  /* font-size: medium; */
+}
+
+.tableHeader {
+  padding: 4px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.tableRow {
+  width: 100%;
+  font-family: sans-serif;
+  border: 1px solid black;
+}
+
+.tableData1 {
+  width: 50%;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.tableData2 {
+  width: 50%;
+  padding: 4px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.licenseBody {
+  text-indent: 100px;
+}
+
+.licenseBody span {
+  font-weight: bold;
+}
+
+.signatureWrapper {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.signatureDetails {
+  margin-top: 120px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 5px;
+  /* font-size: medium; */
+  font-weight: bolder;
+}
+
+.endDate {
+  margin-top: 30px;
+  /* font-size: medium; */
+}
+
+.endDate span {
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
